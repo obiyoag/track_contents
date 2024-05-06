@@ -36,11 +36,31 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
     <th scope="row" style="width: 60%" class="text-right">TBD</th>
     </tr>
     <tr>
-    <td><strong>Validation Data Release</strong></td>
+    <td><strong>Validation Phase</strong></td>
     <th scope="row" style="width: 60%" class="text-right">TBD</th>
     </tr>
     <tr>
-    <td><strong>Test Phase Open</strong></td>
+    <td><strong>Test Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    </tr>
+  <tr>
+    <td><strong>Abstract Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    </tr>
+  <tr>
+    <td><strong>Paper Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    </tr>
+  <tr>
+    <td><strong>Notification</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    </tr>
+  <tr>
+    <td><strong>Camera Ready</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    </tr>
+  <tr>
+    <td><strong>Workshop (Half-Day)</strong></td>
     <th scope="row" style="width: 60%" class="text-right">TBD</th>
     </tr>
 </table>
@@ -58,7 +78,7 @@ In this track, we encourage participants to design effective transfer learning a
 ***Note***: To address this task, participants are encouraged to leverage *external data*.
 
 ## Registration
-Please register [here](http://zmic.org.cn/care_2024/eval/register?track=TFM4MedIA) to get access to the dataset!
+Please register [here](http://zmic.org.cn/care_2024/eval/register?track=TFM4MedIA) to participate in the challenge and get access to the dataset!
 
 ## Data Overview
 
@@ -68,6 +88,57 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 *Note: Only **points** or **rectangular frames** are acceptable as **Prompts***. 
 
  1. [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
+<div style="display: flex; justify-content: center;">
+<table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
+  <thead>
+    <tr>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Sequences</th>
+      <th class="text-center" scope="col">Manual labels</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-center">1</td>
+      <td class="text-center">81</td>
+      <td class="text-center">LGE</td>
+      <td class="text-center">Scar, left ventricle and  myocardium</td>
+    </tr>
+    <tr>
+      <td class="text-center">2</td>
+      <td class="text-center">50</td>
+      <td class="text-center">LGE, T2 and bSSFP</td>
+      <td class="text-center">Scar, edema, left ventricle,  myocardium and right ventricle</td>
+    </tr>
+    <tr>
+      <td class="text-center">3</td>
+      <td class="text-center">45</td>
+      <td class="text-center">LGE, T2 and bSSFP</td>
+      <td class="text-center">Scar, edema, left ventricle,  myocardium and right ventricle</td>
+    </tr>
+    <tr>
+      <td class="text-center">5</td>
+      <td class="text-center">07</td>
+      <td class="text-center">LGE and bSSFP</td>
+      <td class="text-center">Scar, left ventricle,  myocardium and and right ventricle</td>
+    </tr>
+    <tr>
+      <td class="text-center">6</td>
+      <td class="text-center">09</td>
+      <td class="text-center">LGE and bSSFP</td>
+      <td class="text-center">Scar, left ventricle,  myocardium and and right ventricle</td>
+    </tr>
+    <tr>
+      <td class="text-center">7</td>
+      <td class="text-center">08</td>
+      <td class="text-center">LGE and bSSFP</td>
+      <td class="text-center">Scar, left ventricle,  myocardium and and right ventricle</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
  2. [Liver Segmentation](http://zmic.org.cn/care_2024/track3/)
     
@@ -105,15 +176,88 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 </div>
 
  3. [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
+<div style="display: flex; justify-content: center;">
+<table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
+  <thead>
+    <tr>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Modalities</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-center">A</td>
+      <td class="text-center">20</td>
+      <td class="text-center">CT</td>
+    </tr>
+    <tr>
+      <td class="text-center">B</td>
+      <td class="text-center">20</td>
+      <td class="text-center">CT</td>
+    </tr>
+    <tr>
+      <td class="text-center">C/D</td>
+      <td class="text-center">20</td>
+      <td class="text-center">MRI</td>
+    </tr>
+    <tr>
+      <td class="text-center">E</td>
+      <td class="text-center">26</td>
+      <td class="text-center">MRI</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
  4. [Left Atrial and Scar Segmentation](http://zmic.org.cn/care_2024/track2/)
+<div style="display: flex; justify-content: center;">
+<table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
+  <thead>
+    <tr>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Modality</th>
+      <th class="text-center" scope="col">Num. task1</th>
+      <th class="text-center" scope="col">Num. task2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-center">3</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">60</td>
+      <td class="text-center">130</td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
 
 *Note: **points** or **rectangular frames** for each class are provided as **Prompts**. Participants can generate prompts based on the segmentation ground truth by themselves*. 
 
 ### Validation Dataset
 
  1. [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
-
+<div style="display: flex; justify-content: center;">
+<table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
+  <thead>
+    <tr>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Sequences</th>
+      <th class="text-center" scope="col">Manual labels</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-center">4</td>
+      <td class="text-center">25</td>
+      <td class="text-center">LGE, T2 and bSSFP</td>
+      <td class="text-center">Scar, edema, left ventricle,  myocardium and right ventricle</td>
+    </tr>
+  </tbody>
+</table>
+</div>
  2. [Liver Segmentation](http://zmic.org.cn/care_2024/track3/)
 
 <div style="display: flex; justify-content: center;">
@@ -150,14 +294,88 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 </div>
 
  3. [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
+<div style="display: flex; justify-content: center;">
+<table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
+  <thead>
+    <tr>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Modalities</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-center">A</td>
+      <td class="text-center">20</td>
+      <td class="text-center">CT</td>
+    </tr>
+    <tr>
+      <td class="text-center">B</td>
+      <td class="text-center">10</td>
+      <td class="text-center">CT</td>
+    </tr>
+    <tr>
+      <td class="text-center">C/D</td>
+      <td class="text-center">20</td>
+      <td class="text-center">MRI</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
  4. [Left Atrial and Scar Segmentation](http://zmic.org.cn/care_2024/track2/)
+<div style="display: flex; justify-content: center;">
+<table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
+  <thead>
+    <tr>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Modality</th>
+      <th class="text-center" scope="col">Num. task1</th>
+      <th class="text-center" scope="col">Num. task2</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+      <td class="text-center">2.1</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">0</td>
+      <td class="text-center">10</td>
+    </tr>
+    <tr>
+      <td class="text-center">3</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">10</td>
+      <td class="text-center">10</td>
+    </tr>
+   
 
+  </tbody>
+</table>
+</div>
 *Note: **points** or **rectangular frames** for each class are provided as **Prompts**. Participants can generate prompts by themselves*. 
 ### Test Dataset
 
  1. [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
-
+<div style="display: flex; justify-content: center;">
+<table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
+  <thead>
+    <tr>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Sequences</th>
+      <th class="text-center" scope="col">Manual labels</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-center">4</td>
+      <td class="text-center">25</td>
+      <td class="text-center">LGE, T2 and bSSFP</td>
+      <td class="text-center">Scar, edema, left ventricle,  myocardium and right ventricle</td>
+    </tr>
+  </tbody>
+</table>
+</div>
  2. [Liver Segmentation](http://zmic.org.cn/care_2024/track3/)
 
 The 160 test cases corresponded to 120 new cases from the vendors provided in the training set and 40 additional cases from a third unseen centre, that were tested for model generalizability. 
@@ -198,9 +416,81 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 
 
  3. [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
+<div style="display: flex; justify-content: center;">
+<table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
+  <thead>
+    <tr>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Modalities</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-center">A</td>
+      <td class="text-center">20</td>
+      <td class="text-center">CT</td>
+    </tr>
+    <tr>
+      <td class="text-center">B</td>
+      <td class="text-center">14</td>
+      <td class="text-center">CT</td>
+    </tr>
+    <tr>
+      <td class="text-center">C/D</td>
+      <td class="text-center">20</td>
+      <td class="text-center">MRI</td>
+    </tr>
+    <tr>
+      <td class="text-center">F</td>
+      <td class="text-center">16</td>
+      <td class="text-center">MRI</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
  4. [Left Atrial and Scar Segmentation](http://zmic.org.cn/care_2024/track2/)
+<div style="display: flex; justify-content: center;">
+<table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
+  <thead>
+    <tr>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Modality</th>
+      <th class="text-center" scope="col">Num. task1</th>
+      <th class="text-center" scope="col">Num. task2</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+      <td class="text-center">1</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">0</td>
+      <td class="text-center">20</td>
+    </tr>
+    <tr>
+      <td class="text-center">2.1</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">0</td>
+      <td class="text-center">10</td>
+    </tr>
+    <tr>
+      <td class="text-center">2.2</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">0</td>
+      <td class="text-center">40</td>
+    </tr>
+    <tr>
+      <td class="text-center">3</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">24</td>
+      <td class="text-center">14</td>
+    </tr>
+   
 
+  </tbody>
+</table>
+</div>
 *Note: for testing, no more than 5 points and 1 rectangular frame are used by organizers for each class as prompts*. 
 ## Metrics & Ranking
 
@@ -221,7 +511,7 @@ This ranking approach encourage the participants to develop methods from foundat
 1. Publicly available data and pretrained model are allowed. 
 
 
-
+## Citations
 **Please cite these papers when you use the data for publications:**
 ```bib
 @article{Wu2023SemiSL,
@@ -243,3 +533,7 @@ This ranking approach encourage the participants to develop methods from foundat
   author = {Shangqi Gao and Hangqi Zhou and Yibo Gao and Xiahai Zhuang},
 }
 ```
+
+## Contact
+
+If you have any problems about this track, please contact [Dr. Fuping Wu](fuping_wu@outlook.com) or [Dr. Shangqi Gao](18110980005@fudan.edu.cn).

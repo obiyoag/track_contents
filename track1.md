@@ -35,35 +35,36 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
 <table class="table table-sm table-hover border-bottom">
     <tr>
     <td><strong>Training Data Release</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    <th scope="row" style="width: 60%" class="text-right">May 10, 2024, 23:59:59</th>
     </tr>
     <tr>
     <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    <th scope="row" style="width: 60%" class="text-right">June 7 to July 7, 2024, 23:59:59 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    <th scope="row" style="width: 60%" class="text-right">July 7 to August 7, 2024, 23:59:59 (DDL)</th>
     </tr>
   <tr>
     <td><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    <th scope="row" style="width: 60%" class="text-right">July 15, 2024, 23:59:59 (DDL)</th>
     </tr>
   <tr>
     <td><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    <th scope="row" style="width: 60%" class="text-right">August 15, 2024, 23:59:59 (DDL)</th>
     </tr>
   <tr>
     <td><strong>Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    <th scope="row" style="width: 60%" class="text-right">September 15, 2024, 23:59:59</th>
     </tr>
   <tr>
     <td><strong>Camera Ready</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    <th scope="row" style="width: 60%" class="text-right">October 1, 2024, 23:59:59 (DDL)</th>
     </tr>
   <tr>
     <td><strong>Workshop (Half-Day)</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    <th scope="row" style="width: 60%" class="text-right">October 7, 2024
+</th>
     </tr>
 </table>
 
@@ -89,7 +90,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 ### Training Dataset
 *Note: Only **points** or **rectangular frames** are acceptable as **Prompts***. 
 
- 1. [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
+ 1). [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
@@ -142,7 +143,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 </div>
 
 
- 2. [Liver Segmentation](http://zmic.org.cn/care_2024/track3/)
+ 2). [Liver Segmentation](http://zmic.org.cn/care_2024/track3/)
     
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
@@ -177,7 +178,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 </table>
 </div>
 
- 3. [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
+ 3). [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
@@ -212,7 +213,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 </table>
 </div>
 
- 4. [Left Atrial and Scar Segmentation](http://zmic.org.cn/care_2024/track2/)
+ 4). [Left Atrial and Scar Segmentation](http://zmic.org.cn/care_2024/track2/)
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
@@ -239,7 +240,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 
 ### Validation Dataset
 
- 1. [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
+ 1). [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
@@ -260,7 +261,8 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
   </tbody>
 </table>
 </div>
- 2. [Liver Segmentation](http://zmic.org.cn/care_2024/track3/)
+
+ 2). [Liver Segmentation](http://zmic.org.cn/care_2024/track3/)
 
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
@@ -295,7 +297,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 </table>
 </div>
 
- 3. [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
+ 3). [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
@@ -325,7 +327,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 </table>
 </div>
 
- 4. [Left Atrial and Scar Segmentation](http://zmic.org.cn/care_2024/track2/)
+ 4). [Left Atrial and Scar Segmentation](http://zmic.org.cn/care_2024/track2/)
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
@@ -357,7 +359,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 *Note: **points** or **rectangular frames** for each class are provided as **Prompts**. Participants can generate prompts by themselves*. 
 ### Test Dataset
 
- 1. [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
+ 1). [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
@@ -378,7 +380,8 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
   </tbody>
 </table>
 </div>
- 2. [Liver Segmentation](http://zmic.org.cn/care_2024/track3/)
+
+ 2). [Liver Segmentation](http://zmic.org.cn/care_2024/track3/)
 
 The 160 test cases corresponded to 120 new cases from the vendors provided in the training set and 40 additional cases from a third unseen centre, that were tested for model generalizability. 
 
@@ -417,7 +420,7 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 </div>
 
 
- 3. [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
+ 3). [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
@@ -452,7 +455,7 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 </table>
 </div>
 
- 4. [Left Atrial and Scar Segmentation](http://zmic.org.cn/care_2024/track2/)
+ 4). [Left Atrial and Scar Segmentation](http://zmic.org.cn/care_2024/track2/)
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>

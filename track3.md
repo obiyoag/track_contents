@@ -167,6 +167,9 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 </div>
 ## Metrics & Ranking
 
+### Data access
+To access the dataset, please register in the [LiQA registration platform](http://zmic.org.cn/care_2024/eval/register?track=LiQA).
+
 ### Metrics
 
 * LiSeg: Dice Similarity Coefficient (DSC), Hausdorff Distance
@@ -185,7 +188,17 @@ Finally, the average of in-distribution results (seen center) and out-of-distrib
 1. Publicly available data (such as [LLD-MMRI2023](https://github.com/LMMMEng/LLD-MMRI2023)) and pre-trained models are allowed. 
 2. Only automatic methods are acceptable. 
 
-## Important Dates
+## Submission Guidance
+
+### Model submission
+After you register in this challenge, we will assign you of a account to login in our [LiQA evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=LiQA).
+You can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation on validation data will be allowed up to 10 times for each task per team.
+
+
+### Paper submission
+TBD
+
+### Important Dates
 
 The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
 
@@ -239,6 +252,7 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
   title={MERIT: Multi-view Evidential learning for Reliable and Interpretable liver fibrosis sTaging}, 
   author={Yuanye Liu and Zheyao Gao and Nannan Shi and Fuping Wu and Yuxin Shi and Qingchao Chen and Xiahai Zhuang},
   year={2024},
+  archivePrefix={arXiv},
 }
 ```
 

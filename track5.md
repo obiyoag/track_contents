@@ -7,14 +7,15 @@ permalink: /track5/
 bibliography: reference.bib
 toc:
   - name: Motivation
-  - name: Task Description
+  - name: Task
   - name: Registration
   - name: Data
-  - name: Metrics and Ranking
+  - name: Metrics & Ranking
   - name: Rules
   - name: Guidance for Training Strategies
   - name: Publication
   - name: Important Dates
+  - name: Citations
   - name: Contact
 _styles: >
   d-article {
@@ -37,7 +38,7 @@ _styles: >
 
 Cardiovascular diseases (CVDs), as the leading cause of death globally<d-cite key="whs1"></d-cite>, necessitate precise morphological and pathological quantification through segmentation of crucial cardiac structures from medical images<d-cite key="whs2"></d-cite>. However, whole heart segmentation (WHS) faces challenges including heart shape variability during the cardiac cycle, clinical artifacts like motion and poor contrast-to-noise ratio, as well as domain shifts in multi-center data and the distinct modalities of CT and MRI. The WHS++ track serves to inspire innovative solutions in the realms of biomedical imaging and computer vision, striving to overcome these challenges and advance automated WHS for enhanced understanding and treatment of CVDs.
 
-## Task Description
+## Task
 
 The dataset includes **104 CT** and **102 MRI** volumes, sourced globally from **6** imaging centers. The objective of this track is to achieve precise segmentation of seven substructures of the whole heart, with robustness against domain shifts (see Fig. 1).  The specific  substructures, each associated with a unique label value, are:
 
@@ -85,7 +86,7 @@ The cardiac CT/CTA data were acquired using standard coronary CT angiography pro
 
 Note that the resolution of images in validation/test dataset were adjusted to 1.0 × 1.0 × 1.0 mm for convenience.
 
-## Metrics and Ranking
+## Metrics & Ranking
 
 Participants need to submit their docker models to our platform for [validation](http://zmic.org.cn/care_2024/eval/scoreboard?track=WHS%2B%2B) and [testing](http://zmic.org.cn/care_2024/test_submission).
 
@@ -104,14 +105,12 @@ Accuracy and robustness are crucial for the success of automatic WHS algorithms 
 ### Rank
 
 Outstanding contributions will be recognized with awards, similar to [MM-WHS 2017](https://zmiclab.github.io/zxh/0/mmwhs/)<d-cite key="whs3"></d-cite> . Submissions will be evaluated based on
-
+- the test results,
 - the novelty of their methodologies, 
-- the quality of the manuscript, 
-- the clarity of their presentation, and 
-- the empirical results.
+- the quality of their manuscript, and
+- the clarity of their presentation.
 
-For empirical results, both in-sample performance from seen centers and generalization capabilities at the unseen center will be considered. The empirical results will be ranked by averaging the performance scores from both scenarios.
-
+For test results, both in-sample performance from seen centers and generalization capabilities at the unseen center will be considered. The empirical results will be ranked by averaging the performance scores from both scenarios.
 
 
 ## Rules
@@ -175,7 +174,7 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
 </table>
 
 
-
+## Citations
 **Please cite these papers when you use the data for publications:**
 
 ```

@@ -28,6 +28,9 @@ _styles: >
   }
 ---
 
+## Registration
+Please register [here](http://zmic.org.cn/care_2024/eval/register?track=TFM4MedIA) to participate in the challenge and get access to the dataset!
+
 ## Important Dates
 
 The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
@@ -79,8 +82,6 @@ In this track, we encourage participants to design effective transfer learning a
 
 ***Note***: To address this task, participants are encouraged to leverage *external data*.
 
-## Registration
-Please register [here](http://zmic.org.cn/care_2024/eval/register?track=TFM4MedIA) to participate in the challenge and get access to the dataset!
 
 ## Data Overview
 

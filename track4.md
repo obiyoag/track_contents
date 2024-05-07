@@ -6,13 +6,12 @@ permalink: /track4/
 bibliography: reference.bib
 toc:
   - name: Motivation
-  - name: Track Description
-  - name: Data Provision
-  - name: Data Split
-  - name: Metrics and Ranking
+  - name: Task
+  - name: Registration
+  - name: Data 
+  - name: Metrics
   - name: Rules
-  - name: Publication
-  - name: Important Dates
+  - name: TimeTable
   - name: Citations
   - name: Contact
 _styles: >
@@ -33,12 +32,22 @@ _styles: >
 
 Myocardial infarction (MI) is a major cause of mortality and disability worldwide. Assessment of myocardial viability is essential in the diagnosis and treatment management of MI patients <d-cite key="myops1"></d-cite>. Multi-sequence cardiac magnetic resonance (MS-CMR) images can provide valuable myocardial pathology information, which is important for the diagnosis and treatment management of patients. As shown in Figure 1 (A), balanced steady-state free precession (bSSFP) cine sequences present clear anatomical boundaries, while late gadolinium enhancement (LGE) and T2-weighted (T2) CMR sequences visualize myocardial scar and edema of MI, respectively.
 
-## Track Description
+## Task
 
 The target of this track is to segment myocardial pathology regions, specifically scar and edema, from multi-sequence CMR data. This track seeks innovative solutions to address MyoPS using real-world multi-sequence CMR data. We encourage participants to overcome challenges such as the inclusion of multi-center data, missing sequences for some centers <d-cite key="myops2"></d-cite>, and misalignments in multi-sequence CMRs <d-cite key="myops3"></d-cite>, as illustrated in Figure 1 (B).
 
+The best work, following the precedent of [MyoPS 2020](https://zmiclab.github.io/zxh/0/myops20/), will be recognized with awards. A work is assessed based on several key criteria: **Test Results**, **Generalizability of Methodologies** and **Quality of the Manuscript**. The selected papers will be published in our proceedings [see previous proceedings](https://link.springer.com/book/10.1007/978-3-030-65651-5).
 
-## Data Provision
+Topics may cover (not exclusively):
+- Myocardial Pathology Segmentation
+- Cardiac Anatomy Segmentation
+- Multi-Sequence Image Registration
+
+## Registration
+
+Please [**sign up**](http://zmic.org.cn/care_2024/eval/register?track=MyoPS%2B%2B) to join this track.
+
+## Data
 
 This track will provide data of 250 patients across 7 centers from China, France, and the United Kingdom. The number of CMR sequence among the patients is as follows:
 
@@ -55,7 +64,7 @@ Additionally, we also provide labels for:
 - **Right ventricle** (600)
 - **Healthy myocardium** (200)
 
-All clinical data have received institutional ethical approval and have been anonymized to ensure privacy and compliance with ethical standards. Please [join this track](http://zmic.org.cn/care_2024/eval/register?track=MyoPS%2B%2B) to get access to this dataset.
+All clinical data have received institutional ethical approval and have been anonymized to ensure privacy and compliance with ethical standards. 
 
 
 <table class="table table-sm table-hover border-bottom">
@@ -113,7 +122,7 @@ All clinical data have received institutional ethical approval and have been ano
   </tbody>
 </table>
 
-## Data Split
+### Data Split
 
 The dataset is divided into three main parts: training, validation, and test sets:
 
@@ -127,15 +136,14 @@ In this track, LGE and T2 images are derived from the end-diastolic phase of the
 Note that LGE, T2, and C0 are initially unaligned. The data published here come in two versions: one version has been pre-aligned using the [MvMM method](https://zmiclab.github.io/zxh/0/zxhproj), and another one has remained unaligned. **The test phase will be based on the version that has been aligned with the MvMM method.**
 
 ### Data Format
-Each CMR sequence for patients will be provided in the NIfTI format as follows:
+Each CMR sequence and gold standard label of patients will be provided in the NIfTI format as follows:
 - [Patient Identifier]_LGE.nii.gz
 - [Patient Identifier]_T2.nii.gz
 - [Patient Identifier]_C0.nii.gz
 - [Patient Identifier]_gd.nii.gz (gold standard label)
 
-## Metrics and Ranking
+## Metrics
 
-### Metrics
 
 The performance of scar and edema segmentation results will be evaluated by：
 - **Dice Similarity Coefficient (DSC)**
@@ -144,28 +152,25 @@ The performance of scar and edema segmentation results will be evaluated by：
 
 Note that the track will provide an open platform for research groups to [validate](http://zmic.org.cn/care_2024/eval/scoreboard?track=MyoPS%2B%2B) and [test](http://zmic.org.cn/care_2024/test_submission) their methods. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/docker_tutorial) to our platform for testing.
 
+<!-- 
 ### Ranking
 
-The best work, following the precedent of [MyoPS 2020](https://zmiclab.github.io/zxh/0/myops20/), will be recognized with awards. A work is assessed based on several key criteria:
+The best work, following the precedent of [MyoPS 2020](https://zmiclab.github.io/zxh/0/myops20/), will be recognized with awards. A work is assessed based on several key criteria:**Test Results**, **Ggeneralizability of Methodologies** and **Quality of the Manuscript**.
 
 - **Test Results**: The performance of the methods as demonstrated by the test outcomes.
 - **Novelty of Methodologies**: The originality and **generalizability** in the proposed methods.
-- **Quality of the Manuscript**: The clarity, organization, and correctness of the written submission.
+- **Quality of the Manuscript**: The clarity, organization, and correctness of the written submission. The selected papers will be published in our proceedings [see previous proceedings](https://link.springer.com/book/10.1007/978-3-030-65651-5). 
 - **Presentation of Their Paper**: The effectiveness of the oral or poster presentation in conveying the work.
 
-
+-->
 ## Rules
 
 - **Only automatic methods are acceptable.** Participants must utilize algorithms that do not require manual intervention or human-assisted processes for the segmentation task.
 - **External data sets and pre-trained models are not allowed in this track.** The solutions must be developed using only the data provided within the scope of this track and cannot leverage any external datasets or models for assistance.
 
-## Publication
-The selected papers will be published in our proceedings [see previous proceedings](https://link.springer.com/book/10.1007/978-3-030-65651-5). Topics may cover (not exclusively):
-- Myocardial Pathology Segmentation
-- Cardiac Anatomy Segmentation
-- Multi-Sequence Image Registration
 
-## Important Dates
+
+## TimeTable
 
 The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
 
@@ -200,9 +205,11 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
     </tr>
     <tr>
     <td><strong>Workshop (Half-Day)</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 7, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">TBD</th>
     </tr>
 </table>
+
+
 
 ## Citations
 **Please cite these papers when you use the data for publications:**
@@ -215,6 +222,16 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
     number={12},
     pages={2933--2946},
     year={2019},
+}
+
+@article{li2023myops,
+  title={MyoPS: A benchmark of myocardial pathology segmentation combining three-sequence cardiac magnetic resonance images},
+  author={Li, Lei and Wu, Fuping and Wang, Sihan and Luo, Xinzhe and Mart{\'\i}n-Isla, Carlos and Zhai, Shuwei and Zhang, Jianpeng and Liu, Yanfei and Zhang, Zhen and Ankenbrand, Markus J and others},
+  journal={Medical Image Analysis},
+  volume={87},
+  pages={102808},
+  year={2023},
+  publisher={Elsevier}
 }
 
 @article{qiu2023myops,

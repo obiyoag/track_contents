@@ -13,6 +13,7 @@ toc:
   - name: Rules
   - name: Publication
   - name: Important Dates
+  - name: Citations
   - name: Contact
 _styles: >
   d-article {
@@ -201,18 +202,8 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
     </tr>
 </table>
 
-
-## Contact
-
-If you have any questions regarding the MyoPS++ track, please feel free to contact:
-
-- Dr. Wangbin Ding: [dingwangbin@fjmu.edu.cn](mailto:dingwangbin@fjmu.edu.cn)
-- Sihan Wang: [21110980009@m.fudan.edu.cn](mailto:21110980009@m.fudan.edu.cn)
-- Yang Zhang: [zhangyang23@m.fudan.edu.cn](mailto:zhangyang23@m.fudan.edu.cn)
-
-
+## Citations
 **Please cite these papers when you use the data for publications:**
-
 ```bib
  @article{zhuang2018multivariate,
     title={Multivariate mixture model for myocardial segmentation combining multi-source images},
@@ -221,7 +212,7 @@ If you have any questions regarding the MyoPS++ track, please feel free to conta
     volume={41},
     number={12},
     pages={2933--2946},
-    year={2018},
+    year={2019},
 }
 
 @article{qiu2023myops,
@@ -240,3 +231,13 @@ If you have any questions regarding the MyoPS++ track, please feel free to conta
   year={2023},
 }
 ```
+
+## Contact
+
+If you have any questions regarding the MyoPS++ track, please feel free to contact:
+
+- Dr. Wangbin Ding: [dingwangbin@fjmu.edu.cn](mailto:dingwangbin@fjmu.edu.cn)
+- Sihan Wang: [21110980009@m.fudan.edu.cn](mailto:21110980009@m.fudan.edu.cn)
+- Yang Zhang: [zhangyang23@m.fudan.edu.cn](mailto:zhangyang23@m.fudan.edu.cn)
+
+

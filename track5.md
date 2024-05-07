@@ -11,6 +11,7 @@ toc:
   - name: Overview of the Track
   - name: Task Description
   - name: Data Information
+  - name: Citations
   - name: Contact
 _styles: >
   d-article {
@@ -66,7 +67,7 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
 </table>
 
 ## Registration
-Please register [here](http://zmic.org.cn/care_2024/eval/register?track=WHS%2B%2B) to participate in the challenge!
+Please register [here](http://zmic.org.cn/care_2024/eval/register?track=WHS%2B%2B) to participate in the challenge and get access to the dataset!!
 
 ## Motivation
 
@@ -109,11 +110,17 @@ The WHS++ track challenges participants to segment seven specific cardiac substr
 
 **Note on Great Vessels:** The great vessels of interest, comprising the ascending aorta and pulmonary artery, are specifically defined due to variations in the fields of view across different scans. This uniform definition is crucial for ensuring consistency across evaluations. During the assessment, segmentation results for these vessels will be truncated to average lengths measured in healthy subjects, although participants are encouraged to extend their segmentation beyond these lengths. Our provided manual segmentations similarly cover more than the defined trunk measurements.
 
-### Assessment Criteria
+### Assessment
+
+Participants need to submit their docker models to our platform for [validation](http://zmic.org.cn/care_2024/eval/scoreboard?track=WHS%2B%2B) and [testing](http://zmic.org.cn/care_2024/test_submission).
 
 #### Metrics
 
-The performance of segmentation results will be assessed using an average of the following metrics: Dice Similarity Coefficient (DSC), Hausdorff Distance (HD), and Average Surface Distance (ASD).
+The performance of segmentation results will be assessed using an average of the following metrics: 
+
+- Dice Similarity Coefficient (DSC)
+- Hausdorff Distance (HD)
+- Average Surface Distance (ASD)
 
 #### Aim
 
@@ -122,6 +129,11 @@ Accuracy and robustness are crucial for the success of automatic WHS algorithms 
 #### Rank
 
 Performance evaluations will consider both in-sample results from seen centers and generalization capabilities at the unseen center. The final ranking will be determined by averaging the performance scores from both scenarios.
+
+### Rules
+
+- **Only automatic methods are acceptable.** Participants must utilize algorithms that do not require manual intervention or human-assisted processes for the segmentation task.
+- **External data sets and pre-trained models are not allowed in this track.** The solutions must be developed using only the data provided within the scope of this track and cannot leverage any external datasets or models for assistance.
 
 ### Guidance for Training Strategies
 
@@ -139,7 +151,7 @@ The data were collected based on in vivo clinical environment and the data were 
 
 The dataset is divided into training, validation, and test sets:
 
-- **Training Set**: 40 CT and 66 MR images
+- **Training Set**: 40 CT and 46 MR images
 - **Validation Set**: 30 CT and 20 MR images
 - **Test Set**: 34 CT and 36 MR images
 
@@ -157,6 +169,8 @@ The cardiac CT/CTA data were acquired using standard coronary CT angiography pro
 
 Note that the resolution of images in validation/test dataset were adjusted to 1.0 × 1.0 × 1.0 mm for convenience.
 
+
+## Citations
 
 **Please cite these papers when you use the data for publications:**
 ```

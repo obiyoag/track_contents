@@ -12,6 +12,8 @@ toc:
   - name: Data Overview
   - name: Metrics & Ranking
   - name: Rules
+  - name: Citations
+  - name: Contact
 _styles: >
   d-article {
     contain: layout style;

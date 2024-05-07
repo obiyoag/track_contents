@@ -28,8 +28,9 @@ _styles: >
     grid-column: text;
   }
 ---
+
 ## Motivation
-{% include figure.liquid loading="eager" path="/assets/img/myops.png" class="img-fluid" zoomable=true caption="**Figure 1.** Myocardial pathology segmentation and its challenges. **(A) Myocardial Pathology Segmentation**: Scar and edema regions are marked in green and yellow, respectively. **(B) Challenges of Myocardial Pathology Segmentation**: The challenges include multi-center data, missing sequences, and misalignments in multi-sequence CMR images." %}
+{% include figure.liquid loading="eager" path="/assets/img/myops.png" class="img-fluid" zoomable=true caption="Figure 1. Myocardial pathology segmentation and its challenges. (A) Myocardial Pathology Segmentation: Scar and edema regions are marked in green and yellow, respectively. (B) Challenges of Myocardial Pathology Segmentation: The challenges include multi-center data, missing sequences, and misalignments in multi-sequence CMR images." %}
 
 Myocardial infarction (MI) is a major cause of mortality and disability worldwide. Assessment of myocardial viability is essential in the diagnosis and treatment management of MI patients <d-cite key="myops1"></d-cite>. Multi-sequence cardiac magnetic resonance (MS-CMR) images can provide valuable myocardial pathology information, which is important for the diagnosis and treatment management of patients. As shown in Figure 1 (A), balanced steady-state free precession (bSSFP) cine sequences present clear anatomical boundaries, while late gadolinium enhancement (LGE) and T2-weighted (T2) CMR sequences visualize myocardial scar and edema of MI, respectively.
 
@@ -207,7 +208,7 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
 ## Citations
 **Please cite these papers when you use the data for publications:**
 ```bib
- @article{zhuang2018multivariate,
+ @article{zhuang2019multivariate,
     title={Multivariate mixture model for myocardial segmentation combining multi-source images},
     author={Zhuang, Xiahai},
     journal={IEEE transactions on pattern analysis and machine intelligence},

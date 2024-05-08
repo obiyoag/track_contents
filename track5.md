@@ -1,4 +1,3 @@
-````
 ---
 layout: distill
 title: WHS++
@@ -30,7 +29,6 @@ _styles: >
     grid-column: text;
   }
 ---
-````
 
 {% include figure.liquid loading="eager" path="/assets/img/whs.png" class="img-fluid" zoomable=true caption="Figure 1. Overview of the WHS++ track" %}
 

@@ -159,25 +159,26 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
   <tbody>
     <tr>
       <td class="text-center">A</td>
-      <td class="text-center">1</td>
-      <td class="text-center">100</td>
-      <td class="text-center">10</td>
-    </tr>
-    <tr>
       <td class="text-center">A</td>
-      <td class="text-center">2</td>
       <td class="text-center">100</td>
       <td class="text-center">10</td>
     </tr>
     <tr>
       <td class="text-center">B</td>
-      <td class="text-center">3</td>
+      <td class="text-center">B1</td>
+      <td class="text-center">100</td>
+      <td class="text-center">10</td>
+    </tr>
+    <tr>
+      <td class="text-center">B</td>
+      <td class="text-center">B2</td>
       <td class="text-center">50</td>
       <td class="text-center">10</td>
     </tr>
   </tbody>
 </table>
 </div>
+
 
  3). [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
 <div style="display: flex; justify-content: center;">
@@ -278,25 +279,26 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
   <tbody>
     <tr>
       <td class="text-center">A</td>
-      <td class="text-center">1</td>
+      <td class="text-center">A</td>
       <td class="text-center">10</td>
       <td class="text-center">10</td>
     </tr>
     <tr>
       <td class="text-center">B</td>
-      <td class="text-center">2</td>
+      <td class="text-center">B1</td>
       <td class="text-center">10</td>
       <td class="text-center">10</td>
     </tr>
     <tr>
       <td class="text-center">B</td>
-      <td class="text-center">3</td>
+      <td class="text-center">B2</td>
       <td class="text-center">10</td>
       <td class="text-center">10</td>
     </tr>
   </tbody>
 </table>
 </div>
+
 
  3). [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)
 <div style="display: flex; justify-content: center;">
@@ -384,7 +386,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 
  2). [Liver Segmentation](http://zmic.org.cn/care_2024/track3/)
 
-The 160 test cases corresponded to 120 new cases from the vendors provided in the training set and 40 additional cases from a third unseen centre, that were tested for model generalizability. 
+The 160 test cases corresponded to 120 new cases from the vendors provided in the training set and 40 additional cases from a third unseen center, that were tested for model generalizability. 
 
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:50%;align:center;">
@@ -398,27 +400,28 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
   <tbody>
     <tr>
       <td class="text-center">A</td>
-      <td class="text-center">1</td>
+      <td class="text-center">A</td>
       <td class="text-center">40</td>
     </tr>
     <tr>
       <td class="text-center">B</td>
-      <td class="text-center">2</td>
+      <td class="text-center">B1</td>
       <td class="text-center">40</td>
     </tr>
     <tr>
       <td class="text-center">B</td>
-      <td class="text-center">3</td>
+      <td class="text-center">B2</td>
       <td class="text-center">40</td>
     </tr>
     <tr>
       <td class="text-center">C (new)</td>
-      <td class="text-center">4</td>
+      <td class="text-center">C</td>
       <td class="text-center">40</td>
     </tr>
   </tbody>
 </table>
 </div>
+
 
 
  3). [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/)

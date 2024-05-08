@@ -34,11 +34,11 @@ Liver fibrosis, arising from chronic viral or metabolic liver conditions, presen
 
 ## Task
 
-Task 1: **The LiSeg task** aims to predict liver segmentation with **limited ground truth**, where the Hepatobiliary phase (HBP) MRI is provided, which contains crucial information of the liver.
+Task 1: **The LiSeg task** aims to predict liver segmentation with **limited ground truth**, where the Hepatobiliary phase (HBP) MRI is provided, which contains crucial information on the liver.
 
 Task 2: **The LiFS task** aims to stage liver fibrosis accurately. The severity of liver fibrosis can be classified into four stages (S1-S4). Results of two binary classification tasks with clinical significance are evaluated, i.e., staging cirrhosis (S1-3 vs S4) and identifying substantial fibrosis (S1 vs S2-4).
 
-Notably, both LiSeg and LiFS encounter **domain shifts** across multi-center data. Participants are encouraged to integrate complementary information from multi-phase MRIs effectively, achieving more **precise and generalizable** results. Moreover, automatic LiFS may face challenges including **random missing modalities** for certain patients and **misalignments** among multi-phase MRIs. 
+Notably, both LiSeg and LiFS encounter **domain shifts** across multi-center data. Participants are encouraged to integrate complementary information from multi-phase MRIs effectively, achieving more **precise and generalizable** results. Moreover, automatic LiFS may face challenges including **random missing sequences** for certain patients and **misalignments** among multi-phase MRIs. 
 
 To address this task, participants are also encouraged to leverage **external data**, such as [LLD-MMRI2023](https://github.com/LMMMEng/LLD-MMRI2023), and **pretrained models**.
 
@@ -52,13 +52,13 @@ To address this task, participants are also encouraged to leverage **external da
 
 **3) Contrast-enhanced dynamic scans:** Contrast-enhanced scans were performed based on the injection of the GD-EOB-DTPA agent. The arterial phase is captured 25 seconds after the contrast agent is injected. Subsequently, the portal phase is achieved 1 minute later. After another 3 minutes, the delay phase is obtained, and finally, the hepatobiliary phase is reached 20 minutes thereafter.
 
-**4) Data format:** The data are all in Nifty format. Each sample may randomly lack phases (except hepatobiliary phase ), and the modalities have not applied pre-alignment through spatial registration.
+**4) Data format:** The data are all in Nifty format. Each sample may randomly lack phases (except hepatobiliary phase ), and the sequences have not applied pre-alignment through spatial registration.
 
 ### Training Set
 
-For LiSeg task, the training set contains 30 annotated segmentation images obtained by experienced clinicians and 220 unannotated images from two different MRI vendors. 
+For LiSeg task, the training set contains 30 annotated segmentation images obtained by experienced clinicians and 220 unannotated images from 2 different MRI vendors and 3 different centers. 
 
-For LiFS task, all 250 training samples are provided with ground truth of the liver fibrosis stage. Moreover, part of the hepatobiliary phase images have been segmented previously.
+For LiFS task, all 250 training samples are provided with the ground truth of the liver fibrosis stage. Moreover, part of the hepatobiliary phase images have been segmented previously.
 
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
@@ -73,25 +73,26 @@ For LiFS task, all 250 training samples are provided with ground truth of the li
   <tbody>
     <tr>
       <td class="text-center">A</td>
-      <td class="text-center">1</td>
-      <td class="text-center">100</td>
-      <td class="text-center">10</td>
-    </tr>
-    <tr>
       <td class="text-center">A</td>
-      <td class="text-center">2</td>
       <td class="text-center">100</td>
       <td class="text-center">10</td>
     </tr>
     <tr>
       <td class="text-center">B</td>
-      <td class="text-center">3</td>
+      <td class="text-center">B1</td>
+      <td class="text-center">100</td>
+      <td class="text-center">10</td>
+    </tr>
+    <tr>
+      <td class="text-center">B</td>
+      <td class="text-center">B2</td>
       <td class="text-center">50</td>
       <td class="text-center">10</td>
     </tr>
   </tbody>
 </table>
 </div>
+
 
 ### Validation Set
 
@@ -108,25 +109,26 @@ For LiFS task, all 250 training samples are provided with ground truth of the li
   <tbody>
     <tr>
       <td class="text-center">A</td>
-      <td class="text-center">1</td>
+      <td class="text-center">A</td>
       <td class="text-center">10</td>
       <td class="text-center">10</td>
     </tr>
     <tr>
       <td class="text-center">B</td>
-      <td class="text-center">2</td>
+      <td class="text-center">B1</td>
       <td class="text-center">10</td>
       <td class="text-center">10</td>
     </tr>
     <tr>
       <td class="text-center">B</td>
-      <td class="text-center">3</td>
+      <td class="text-center">B2</td>
       <td class="text-center">10</td>
       <td class="text-center">10</td>
     </tr>
   </tbody>
 </table>
 </div>
+
 
 ### Test Set
 
@@ -144,27 +146,28 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
   <tbody>
     <tr>
       <td class="text-center">A</td>
-      <td class="text-center">1</td>
+      <td class="text-center">A</td>
       <td class="text-center">40</td>
     </tr>
     <tr>
       <td class="text-center">B</td>
-      <td class="text-center">2</td>
+      <td class="text-center">B1</td>
       <td class="text-center">40</td>
     </tr>
     <tr>
       <td class="text-center">B</td>
-      <td class="text-center">3</td>
+      <td class="text-center">B2</td>
       <td class="text-center">40</td>
     </tr>
     <tr>
+      <td class="text-center">C (new)</td>
       <td class="text-center">C</td>
-      <td class="text-center">4</td>
       <td class="text-center">40</td>
     </tr>
   </tbody>
 </table>
 </div>
+
 ## Metrics & Ranking
 
 ### Data access
@@ -190,9 +193,9 @@ Finally, the average of in-distribution results (seen center) and out-of-distrib
 
 ## Submission Guidance
 
-### Model submission
-After you register in this challenge, we will assign you of a account to login in our [LiQA evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=LiQA).
-You can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation on validation data will be allowed up to 10 times for each task per team.
+### Model Submission
+After you register for this challenge, we will assign you an account to login into our [LiQA evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=LiQA).
+You can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team.
 
 
 ### Paper submission

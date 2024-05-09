@@ -46,8 +46,6 @@ The LAScarQS++ track aims to address these issues, driving the advancement of DL
 {% include figure.liquid loading="eager" path="/assets/img/lascarqs2.png" class="img-fluid" zoomable=true caption="Figure 2." %}
 The target of this track is to automatically segment LA cavity and quantify LA scars from LGE MRI (see Fig. 2). The track will provide 200+ LGE MRIs globally, i.e., from multiple imaging centers around the world, for developing novel algorithms that can quantify or segment LA cavity and scars. The track presents an open and fair platform for various research groups to test and validate their methods on these datasets acquired from the clinical environment. To ensure data privacy, the platform will enable remote training and testing on the dataset from different centers in local and the dataset can keep invisible.
 
-The best work will be selected with awards, similar to LAScarQS 2022. A work is assessed based on the novelty of the methodologies, quality of the manuscript, presentation of their paper as well as the test results.
-
 The selected papers will be published in our proceedings (see previous proceedings).
 
 Topics may cover (not exclusively):
@@ -103,6 +101,7 @@ The dataset has been divided into three main parts: training, validation, and te
 ## Metrics & Award
 ### Metrics
 The performance of scar and edema segmentation results will be evaluated by：
+
 *Task 1*:
 - **Generalized Dice Similarity Coefficient (G-DSC) <d-cite key="lascarqs6">**
 - **Accuracy (ACC)**
@@ -114,7 +113,8 @@ The performance of scar and edema segmentation results will be evaluated by：
 - **Hausdorff Distance (HD)**
 
 ### Award
-Tasks 1 and 2 will be evaluated and ranked seperately, based on the performance of the model, the novelty of the method, the quality of the submitted paper, and the performance of the presentation (either oral presentation or poster), etc. For successful participants, we will prepare one **Champion Winner Award** and one **Best Paper Award**.
+
+Tasks 1 and 2 will be evaluated and ranked seperately, based on the performance of the model, the novelty of the method, the quality of the submitted paper, and the performance of the presentation (either oral presentation or poster), etc. The best work will be selected with awards, similar to [LAScarQS 2022](https://zmiclab.github.io/projects/lascarqs22/). Specifically, we will prepare one **Champion Winner Award** and one **Best Paper Award**.
 
 ## Rules
 1. External data sets and pre-trained models are NOT allowed in this track.
@@ -215,7 +215,7 @@ The schedule for this track is as follows. All deadlines are on 12:00 pm in Paci
 
 ## Contact
 
-If you have any questions regarding the LAScarQS track, please feel free to contact:
+If you have any questions regarding the LAScarQS++ track, please feel free to contact:
 
 - Dr Lei Li: [lilei.sky@outlook.com](mailto:lilei.sky@outlook.com)
 - Xingtao Lin: [231110040@fzu.edu.cn](mailto:231110040@fzu.edu.cn)

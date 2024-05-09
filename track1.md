@@ -31,7 +31,7 @@ _styles: >
 
 ## Motivation
 
-{% include figure.liquid loading="eager" path="/assets/img/tfm4media.png" class="img-fluid" zoomable=true %}
+{% include figure.liquid loading="eager" path="/assets/img/tfm4media.png" class="img-fluid" zoomable=true caption="Figure 1." %}
 
 While foundation models like the Segment Anything Model (SAM)<d-cite key="tfm1"></d-cite> have demonstrated efficacy in various medical image analysis tasks, their performance on real-world data remains underexplored. Specifically, these models are typically trained for normal and large targets such as the liver and lungs, yet real-world data often originates from different centers with diverse modalities. Furthermore, the application of foundation models to complicated Regions of Interest (ROIs), like lesions or scars, poses additional challenges due to their small size and irregular shapes. Hence, developing effective and efficient transfer learning approaches to fully utilize those foundation models for real world medical image segmentation is of great values.
 
@@ -195,7 +195,6 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 </table>
 </div>
 
-*Note: Only **points** or **bounding boxes** are acceptable as **prompts**. Participants can generate prompts based on the segmentation ground truth by themselves for the training dataset*.
 
 ### Validation Dataset
 
@@ -315,7 +314,6 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 </table>
 </div>
 
-*Note: for validation, no more than **5 points** and **1 bounding box** are provided by organizers for each class as prompts*. 
 
 ### Test Dataset
 
@@ -458,7 +456,14 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 </table>
 </div>
 
-*Note: for testing, no more than **5 points** and **1 bounding box** are provided by organizers for each class as prompts*. 
+### Prompts
+
+<div style="text-align: center;">
+  {% include figure.liquid loading="eager" path="/assets/img/tfm4media2.png" class="img-fluid" max-width="25vw" zoomable=true caption="Figure 2. An example of acceptable prompts." %}
+</div>
+
++ Only **points** or **bounding boxes** are acceptable as **prompts**. Participants can generate prompts based on the segmentation ground truth by themselves for the training dataset.
++ For validation and testing testing, no more than **5 points** and **1 bounding box** are provided by organizers for each class as prompts. An example can be seen in the Figure 2.
 
 ## Metrics & Ranking
 

@@ -37,7 +37,7 @@ While foundation models like the Segment Anything Model (SAM)<d-cite key="tfm1">
 
 ## Task
 
-In this track, we encourage participants to design effective transfer learning approaches to exploit the knowledge from existed foundation models efficiently and make them more effective in four segmentation tasks, including **Myocardial Pathology Segmentation** in [MyoPS++](http://zmic.org.cn/care_2024/track4/) track, **Liver Segmentation** in [LiFS](http://zmic.org.cn/care_2024/track3/) track, **Whole Heart Segmentation** in [WHS++](http://zmic.org.cn/care_2024/track5/) track and **Left Atrial and Scar Segmentation** in [LAScarQS++](http://zmic.org.cn/care_2024/track2/) track. 
+In this track, we encourage participants to design effective transfer learning approaches to exploit the knowledge from existed foundation models efficiently and make them more effective in four segmentation tasks, including **Myocardial Pathology Segmentation** in [MyoPS++](http://zmic.org.cn/care_2024/track4/) track, **Liver Segmentation** in [LiQA](http://zmic.org.cn/care_2024/track3/) track, **Whole Heart Segmentation** in [WHS++](http://zmic.org.cn/care_2024/track5/) track and **Left Atrial and Scar Segmentation** in [LAScarQS++](http://zmic.org.cn/care_2024/track2/) track. 
 
 ***Note***: To address this task, participants are encouraged to leverage *external data*.
 
@@ -558,4 +558,4 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
 
 ## Contact
 
-If you have any problems about this track, please contact [Dr. Fuping Wu](fuping_wu@outlook.com) or [Dr. Shangqi Gao](18110980005@fudan.edu.cn).
+If you have any problems about this track, please contact [Dr. Fuping Wu](mailto:fuping_wu@outlook.com) or [Dr. Shangqi Gao](mailto:18110980005@fudan.edu.cn).

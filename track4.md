@@ -11,7 +11,7 @@ toc:
   - name: Metrics
   - name: Rules
   - name: Registration
-  - name: TimeTable
+  - name: Timeline
   - name: Citations
   - name: Contact
 _styles: >

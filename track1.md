@@ -185,7 +185,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
   </thead>
   <tbody>
     <tr>
-      <td class="text-center">3</td>
+      <td class="text-center">A</td>
       <td class="text-center">LGE MRI</td>
       <td class="text-center">60</td>
       <td class="text-center">130</td>
@@ -300,19 +300,17 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
   </thead>
   <tbody>
      <tr>
-      <td class="text-center">2.1</td>
+      <td class="text-center">A</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">10</td>
+      <td class="text-center">10</td>
+    </tr>
+    <tr>
+      <td class="text-center">C</td>
       <td class="text-center">LGE MRI</td>
       <td class="text-center">0</td>
       <td class="text-center">10</td>
     </tr>
-    <tr>
-      <td class="text-center">3</td>
-      <td class="text-center">LGE MRI</td>
-      <td class="text-center">10</td>
-      <td class="text-center">10</td>
-    </tr>
-   
-
   </tbody>
 </table>
 </div>
@@ -431,28 +429,28 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
   </thead>
   <tbody>
      <tr>
-      <td class="text-center">1</td>
+      <td class="text-center">A</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">24</td>
+      <td class="text-center">14</td>
+    </tr>
+    <tr>
+      <td class="text-center">B</td>
       <td class="text-center">LGE MRI</td>
       <td class="text-center">0</td>
       <td class="text-center">20</td>
     </tr>
-    <tr>
-      <td class="text-center">2.1</td>
-      <td class="text-center">LGE MRI</td>
-      <td class="text-center">0</td>
-      <td class="text-center">10</td>
-    </tr>
-    <tr>
+<!--     <tr>
       <td class="text-center">2.2</td>
       <td class="text-center">LGE MRI</td>
       <td class="text-center">0</td>
       <td class="text-center">40</td>
-    </tr>
+    </tr> -->
     <tr>
-      <td class="text-center">3</td>
+      <td class="text-center">C</td>
       <td class="text-center">LGE MRI</td>
-      <td class="text-center">24</td>
-      <td class="text-center">14</td>
+      <td class="text-center">0</td>
+      <td class="text-center">10</td>
     </tr>
    
 
@@ -466,7 +464,7 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 
 ### Metrics
 
-Dice Similarity Coefficient (DSC), Hausdorff Distance.
+Dice Similarity Coefficient (DSC), Hausdorff Distance (HD).
 
 ### Rank methods
 

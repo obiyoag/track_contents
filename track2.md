@@ -127,7 +127,7 @@ To access the dataset, please register in the [LAScarQS++ registration platform]
 ## Submission Guidance
 
 ### Model Submission
-After registration, we will assign the participant an account to login into our [LiQA evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=LAScarQS%2B%2B). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
+After registration, we will assign the participant an account to login into our [LAScarQS++ evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=LAScarQS%2B%2B). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
 ### Paper submission
 TBC

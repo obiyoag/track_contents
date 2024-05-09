@@ -10,7 +10,10 @@ toc:
   - name: Data
   - name: Metrics & Ranking
   - name: Rules
-  - name: Important Dates
+  - name: Registration
+  - name: Submission Guidance
+  - name: Timeline
+  - name: Citations
   - name: Contact
 _styles: >
   d-article {
@@ -26,9 +29,9 @@ _styles: >
   }
 ---
 
-{% include figure.liquid loading="eager" path="/assets/img/liqa1.png" class="img-fluid" zoomable=true caption="Figure 1. Track description." %}
 
 ## Motivation
+{% include figure.liquid loading="eager" path="/assets/img/liqa1.png" class="img-fluid" zoomable=true caption="Figure 1. Track description." %}
 
 Liver fibrosis, arising from chronic viral or metabolic liver conditions, presents a significant global health challenge. Accurate **liver segmentation (LiSeg)** and **fibrosis staging (LiFS)**<d-cite key="liqa1"></d-cite><d-cite key="liqa2"></d-cite> are essential for evaluating disease severity and facilitating accurate diagnoses. This track focuses on achieving two tasks, including automatic **single-phase liver segmentation** and **multi-phase liver fibrosis staging** from **multi-center** liver MRI scans.
 
@@ -170,9 +173,6 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 
 ## Metrics & Ranking
 
-### Data access
-To access the dataset, please register in the [LiQA registration platform](http://zmic.org.cn/care_2024/eval/register?track=LiQA).
-
 ### Metrics
 
 * LiSeg: Dice Similarity Coefficient (DSC), Hausdorff Distance
@@ -191,17 +191,18 @@ Finally, the average of in-distribution results (seen center) and out-of-distrib
 1. Publicly available data (such as [LLD-MMRI2023](https://github.com/LMMMEng/LLD-MMRI2023)) and pre-trained models are allowed. 
 2. Only automatic methods are acceptable. 
 
+## Registration
+To access the dataset, please register in the [LiQA registration platform](http://zmic.org.cn/care_2024/eval/register?track=LiQA).
+
 ## Submission Guidance
 
 ### Model Submission
-After you register for this challenge, we will assign you an account to login into our [LiQA evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=LiQA).
-You can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team.
-
+After registration, we will assign participants an account to login into our [LiQA evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=LiQA). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
 ### Paper submission
 TBD
 
-### Important Dates
+### Timeline
 
 The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
 

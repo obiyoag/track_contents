@@ -7,10 +7,10 @@ bibliography: reference.bib
 toc:
   - name: Motivation
   - name: Task
-  - name: Registration
   - name: Data 
   - name: Metrics
   - name: Rules
+  - name: Registration
   - name: TimeTable
   - name: Citations
   - name: Contact
@@ -44,9 +44,6 @@ Topics may cover (not exclusively):
 - Cardiac Anatomy Segmentation
 - Multi-Sequence Image Registration
 
-## Registration
-
-Please [**sign up**](http://zmic.org.cn/care_2024/eval/register?track=MyoPS%2B%2B) to join this track.
 
 ## Data
 
@@ -164,15 +161,24 @@ The best work, following the precedent of [MyoPS 2020](https://zmiclab.github.io
 - **Presentation of Their Paper**: The effectiveness of the oral or poster presentation in conveying the work.
 
 -->
-## Rules
 
+## Rules
 - **Only automatic methods are acceptable.** Participants must utilize algorithms that do not require manual intervention or human-assisted processes for the segmentation task.
 - **External data sets and pre-trained models are not allowed in this track.** The solutions must be developed using only the data provided within the scope of this track and cannot leverage any external datasets or models for assistance.
 
 
+## Registration
+Please [**sign up**](http://zmic.org.cn/care_2024/eval/register?track=MyoPS%2B%2B) to join this track.
 
-## TimeTable
+## Submission Guidance
 
+### Model Submission
+After registration, we will assign participants an account to login into our [MyoPS++ evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=MyoPS%2B%2B). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
+
+### Paper submission
+TBD
+
+## Timeline
 The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
 
 <table class="table table-sm table-hover border-bottom">

@@ -5,13 +5,14 @@ description: Transferring Foundation Models for Multi-center Real-World Medical 
 permalink: /track1/
 bibliography: reference.bib
 toc:
-  - name: Important Dates
   - name: Motivation
   - name: Task
-  - name: Registration
-  - name: Data Overview
+  - name: Data
   - name: Metrics & Ranking
   - name: Rules
+  - name: Registration
+  - name: Submission Guidance
+  - name: Timeline
   - name: Citations
   - name: Contact
 _styles: >
@@ -28,49 +29,6 @@ _styles: >
   }
 ---
 
-## Registration
-Please register [here](http://zmic.org.cn/care_2024/eval/register?track=TFM4MedIA) to participate in the challenge and get access to the dataset!
-
-## Important Dates
-
-The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
-
-<table class="table table-sm table-hover border-bottom">
-    <tr>
-    <td><strong>Training Data Release</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">May 10, 2024, 23:59:59</th>
-    </tr>
-    <tr>
-    <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 7 to July 7, 2024, 23:59:59 (DDL)</th>
-    </tr>
-    <tr>
-    <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7 to August 7, 2024, 23:59:59 (DDL)</th>
-    </tr>
-  <tr>
-    <td><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024, 23:59:59 (DDL)</th>
-    </tr>
-  <tr>
-    <td><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024, 23:59:59 (DDL)</th>
-    </tr>
-  <tr>
-    <td><strong>Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 15, 2024, 23:59:59</th>
-    </tr>
-  <tr>
-    <td><strong>Camera Ready</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 1, 2024, 23:59:59 (DDL)</th>
-    </tr>
-  <tr>
-    <td><strong>Workshop (Half-Day)</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 7, 2024
-</th>
-    </tr>
-</table>
-
 ## Motivation
 
 {% include figure.liquid loading="eager" path="/assets/img/tfm4media.png" class="img-fluid" zoomable=true %}
@@ -84,14 +42,13 @@ In this track, we encourage participants to design effective transfer learning a
 ***Note***: To address this task, participants are encouraged to leverage *external data*.
 
 
-## Data Overview
+## Data
 
 Multi-center datasets are provided for four sub-tasks. More detailed data information can be found here for [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/), [Liver Segmentation](http://zmic.org.cn/care_2024/track3/), [Whole Heart Segmentation](http://zmic.org.cn/care_2024/track5/) and [Left Atrial and Scar Segmentation](http://zmic.org.cn/care_2024/track2/).
 
 ### Training Dataset
-*Note: Only **points** or **rectangular frames** are acceptable as **Prompts***. 
 
- 1). [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
+1). [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
 <div style="display: flex; justify-content: center;">
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
@@ -238,7 +195,7 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 </table>
 </div>
 
-*Note: **points** or **rectangular frames** for each class are provided as **Prompts**. Participants can generate prompts based on the segmentation ground truth by themselves*. 
+*Note: Only **points** or **bounding boxes** are acceptable as **prompts**. Participants can generate prompts based on the segmentation ground truth by themselves for the training dataset*.
 
 ### Validation Dataset
 
@@ -359,7 +316,9 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
   </tbody>
 </table>
 </div>
-*Note: **points** or **rectangular frames** for each class are provided as **Prompts**. Participants can generate prompts by themselves*. 
+
+*Note: for validation, no more than **5 points** and **1 bounding box** are provided by organizers for each class as prompts*. 
+
 ### Test Dataset
 
  1). [Myocardial Pathology Segmentation](http://zmic.org.cn/care_2024/track4/)
@@ -500,12 +459,14 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
   </tbody>
 </table>
 </div>
-*Note: for testing, no more than 5 points and 1 rectangular frame are used by organizers for each class as prompts*. 
+
+*Note: for testing, no more than **5 points** and **1 bounding box** are provided by organizers for each class as prompts*. 
+
 ## Metrics & Ranking
 
 ### Metrics
 
-Dice Similarity Coefficient (DSC), Hausdorff Distance
+Dice Similarity Coefficient (DSC), Hausdorff Distance.
 
 ### Rank methods
 
@@ -518,6 +479,58 @@ This ranking approach encourage the participants to develop methods from foundat
 ## Rules
 
 1. Publicly available data and pretrained model are allowed. 
+
+
+## Registration
+Please register [here](http://zmic.org.cn/care_2024/eval/register?track=TFM4MedIA) to participate in the challenge and get access to the dataset!
+
+## Submission Guidance
+
+### Model Submission
+After registration, we will assign participants an account to login into our [TFM4MedIA evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=TFM4MedIA). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
+
+### Paper submission
+TBD
+
+
+## Timeline
+The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
+
+<table class="table table-sm table-hover border-bottom">
+    <tr>
+    <td><strong>Training Data Release</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">May 10, 2024, 23:59:59</th>
+    </tr>
+    <tr>
+    <td><strong>Validation Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">June 7 to July 7, 2024, 23:59:59 (DDL)</th>
+    </tr>
+    <tr>
+    <td><strong>Test Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 7 to August 7, 2024, 23:59:59 (DDL)</th>
+    </tr>
+  <tr>
+    <td><strong>Abstract Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 15, 2024, 23:59:59 (DDL)</th>
+    </tr>
+  <tr>
+    <td><strong>Paper Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">August 15, 2024, 23:59:59 (DDL)</th>
+    </tr>
+  <tr>
+    <td><strong>Notification</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">September 15, 2024, 23:59:59</th>
+    </tr>
+  <tr>
+    <td><strong>Camera Ready</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">October 1, 2024, 23:59:59 (DDL)</th>
+    </tr>
+  <tr>
+    <td><strong>Workshop (Half-Day)</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">October 7, 2024
+</th>
+    </tr>
+</table>
 
 
 ## Citations

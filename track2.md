@@ -6,9 +6,13 @@ permalink: /track2/
 bibliography: reference.bib
 toc:
   - name: Motivation
-  - name: Overview of the Track
-  - name: Dataset
+  - name: Task
+  - name: Data
+  - name: Registration
   - name: Submission Guidance
+  - name: Timeline
+  - name: Citations
+  - name: Contact
 _styles: >
   d-article {
     contain: layout style;
@@ -35,7 +39,7 @@ However, automatic quantification and analysis of LA scars can be quite challeng
 Deep learning (DL) methods have shown promise in LGE MRI analysis, yet their performance often falters in new domains due to domain shifts<d-cite key="lascarqs8"></d-cite><d-cite key="lascarqs9"></d-cite>.
 The LAScarQS++ track aims to address these issues, driving the advancement of DL models that precisely delineate LA cavity and scars and ultimately revolutionize personalized AF treatment.
 
-## Overview of the Track
+## Task
 
 {% include figure.liquid loading="eager" path="/assets/img/lascarqs2.png" class="img-fluid" zoomable=true caption="Figure 2." %}
 The target of this track is to automatically segment LA cavity and quantify LA scars from LGE MRI (see Fig. 2). The track will provide 200+ LGE MRIs globally, i.e., from multiple imaging centers around the world, for developing novel algorithms that can quantify or segment LA cavity and scars. The track presents an open and fair platform for various research groups to test and validate their methods on these datasets acquired from the clinical environment. To ensure data privacy, the platform will enable remote training and testing on the dataset from different centers in local and the dataset can keep invisible.
@@ -53,7 +57,7 @@ Topics may cover (not exclusively):
 - Multi-task learning
 - Personalized healthcare
 
-## Dataset
+## Data
 
 ### Data acquisition information
 We include 200+ multi-center LGE MRIs (enhanced.nii.gz) from different countries, with manual segmentation of LA cavity (atriumSegImgMO.nii.gz) and/ or scarring region (scarSegImgM.nii.gz).
@@ -92,21 +96,19 @@ The dataset has been divided into three main parts: training, validation, and te
 - **Validation Set**: 10 LGE MRIs from Center 2.1 and 10 LGE MRIs from Center 3
 - **Test Set**: 20 LGE MRIs from Center 1, 10 LGE MRIs from Center 2.1, and 14 LGE MRIs from Center 3 <!-- , 40 LGE MRIs from Center 2.2-->
 
-### Data access
+
+## Registration
 To access the dataset, please register in the [LAScarQS++ registration platform](http://zmic.org.cn/care_2024/eval/register?track=LAScarQS%2B%2B).
 
 ## Submission Guidance
 
-### Model submission
-After you register in this challenge, we will assign you of a account to login in our [LAScarQS++ evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=LAScarQS%2B%2B).
-You can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation on validation data will be allowed up to 10 times for each task per team.
-
-<!-- For evaluation, we will employ Dice score, Accuracy,... -->
+### Model Submission
+After registration, we will assign participants an account to login into our [LiQA evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=LAScarQS%2B%2B). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
 ### Paper submission
-tbc
+TBD
 
-### Important Dates
+## Timeline
 The schedule for this track is as follows. All deadlines are on 24:00 in Pacific Standard Time.
 
 <table class="table table-sm table-hover border-bottom">
@@ -144,7 +146,7 @@ The schedule for this track is as follows. All deadlines are on 24:00 in Pacific
     </tr>
 </table>
 
-### Citations
+## Citations
 **Please cite these papers when you use the data for publications:**
 ```bib
  @article{journal/MedIA/li2022,
@@ -187,12 +189,12 @@ The schedule for this track is as follows. All deadlines are on 24:00 in Pacific
 }
 ```
 
-### Contact
+## Contact
 
 If you have any questions regarding the LAScarQS track, please feel free to contact:
 
 - Dr Lei Li: [lilei.sky@outlook.com](mailto:lilei.sky@outlook.com)
-- Xingtao Lin: 
+- Xingtao Lin: [231110040@fzu.edu.cn](mailto:231110040@fzu.edu.cn)
 
 <!-- ## Organizer and Committee Team
 

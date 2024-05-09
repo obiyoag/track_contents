@@ -7,13 +7,12 @@ bibliography: reference.bib
 toc:
   - name: Motivation
   - name: Task
-  - name: Registration
   - name: Data
   - name: Metrics & Ranking
   - name: Rules
-  - name: Guidance for Training Strategies
-  - name: Publication
-  - name: Important Dates
+  - name: Registration
+  - name: Submission Guidance
+  - name: Timeline
   - name: Citations
   - name: Contact
 _styles: >
@@ -30,13 +29,12 @@ _styles: >
   }
 ---
 
-{% include figure.liquid loading="eager" path="/assets/img/whs.png" class="img-fluid" zoomable=true caption="Figure 1. Overview of the WHS++ track" %}
 
 ## Motivation
-
 Cardiovascular diseases (CVDs), as the leading cause of death globally<d-cite key="whs1"></d-cite>, necessitate precise morphological and pathological quantification through segmentation of crucial cardiac structures from medical images<d-cite key="whs2"></d-cite>. However, whole heart segmentation (WHS) faces challenges including heart shape variability during the cardiac cycle, clinical artifacts like motion and poor contrast-to-noise ratio, as well as domain shifts in multi-center data and the distinct modalities of CT and MRI. The WHS++ track serves to inspire innovative solutions in the realms of biomedical imaging and computer vision, striving to overcome these challenges and advance automated WHS for enhanced understanding and treatment of CVDs.
 
 ## Task
+{% include figure.liquid loading="eager" path="/assets/img/whs.png" class="img-fluid" zoomable=true caption="Figure 1. Overview of the WHS++ track" %}
 
 The dataset includes **104 CT** and **102 MRI** volumes, sourced globally from **6** imaging centers. The objective of this track is to achieve precise segmentation of seven substructures of the whole heart, with robustness against domain shifts (see Fig. 1).  The specific  substructures, each associated with a unique label value, are:
 
@@ -50,9 +48,6 @@ The dataset includes **104 CT** and **102 MRI** volumes, sourced globally from *
 
 **Note on Great Vessels:** The great vessels of interest, comprising the ascending aorta and pulmonary artery, are specifically defined due to variations in the fields of view across different scans. This uniform definition is crucial for ensuring consistency across evaluations. During the assessment, segmentation results for these vessels will be truncated to average lengths measured in healthy subjects, although participants are encouraged to extend their segmentation beyond these lengths. Our provided manual segmentations similarly cover more than the defined trunk measurements.
 
-## Registration
-
-Please register [here](http://zmic.org.cn/care_2024/eval/register?track=WHS%2B%2B) to participate in the challenge and get access to the dataset!!
 
 ## Data
 
@@ -84,9 +79,11 @@ The cardiac CT/CTA data were acquired using standard coronary CT angiography pro
 
 Note that the resolution of images in validation/test dataset were adjusted to 1.0 × 1.0 × 1.0 mm for convenience.
 
-## Metrics & Ranking
+### Guidance for Training Strategies
 
-Participants need to submit their docker models to our platform for [validation](http://zmic.org.cn/care_2024/eval/scoreboard?track=WHS%2B%2B) and [testing](http://zmic.org.cn/care_2024/test_submission).
+To facilitate a well-informed training process, information about the imaging centers will be provided alongside the cases, indicated by the case naming (refer to Fig. 2).  Participants are strongly encouraged to use this information to design training strategies that aim for high generalization capability. This approach is intended to promote the development of algorithms that perform robustly not only under controlled conditions but also across diverse real-world clinical environments.
+
+## Metrics & Ranking
 
 ### Metrics
 
@@ -116,12 +113,17 @@ For test results, both in-sample performance from seen centers and generalizatio
 - **Only automatic methods are acceptable.** Participants must utilize algorithms that do not require manual intervention or human-assisted processes for the segmentation task.
 - **External data sets and pre-trained models are not allowed in this track.** The solutions must be developed using only the data provided within the scope of this track and cannot leverage any external datasets or models for assistance.
 
-## Guidance for Training Strategies
+## Registration
 
-To facilitate a well-informed training process, information about the imaging centers will be provided alongside the cases, indicated by the case naming (refer to Fig. 2).  Participants are strongly encouraged to use this information to design training strategies that aim for high generalization capability. This approach is intended to promote the development of algorithms that perform robustly not only under controlled conditions but also across diverse real-world clinical environments.
+Please register [here](http://zmic.org.cn/care_2024/eval/register?track=WHS%2B%2B) to participate in the challenge and get access to the dataset!!
 
-## Publication
 
+## Submission Guidance
+
+### Model Submission
+After registration, we will assign participants an account to login into our [WHS++ evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=WHS%2B%2B). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
+
+### Paper submission
 The selected papers will be published in our proceedings ([see previous proceedings](https://link.springer.com/book/10.1007/978-3-319-75541-0)).
 
 Topics may cover (not exclusively):
@@ -132,8 +134,7 @@ Topics may cover (not exclusively):
 - Domain adaptation
 - Model generalization
 
-## Important Dates
-
+## Timeline
 The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
 
 <table class="table table-sm table-hover border-bottom">
@@ -187,7 +188,7 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
 }
 
 @article{Zhuang2019evaluation,
-  Author={Zhuang, Xiahai and Li, Lei and Payer, Christian and {\v{S}}tern, Darko and Urschler, Martin and Heinrich, Mattias P and Oster, Julien and Wang, Chunliang and Smedby, {\"O}rjan and Bian, Cheng and others},
+  Author={Zhuang, Xiahai and Li, Lei and Payer, Christian and Stern, Darko and Urschler, Martin and Heinrich, Mattias P and Oster, Julien and Wang, Chunliang and Smedby, {\"O}rjan and Bian, Cheng and others},
   Title={Evaluation of algorithms for multi-modality whole heart segmentation: an open-access grand challenge},
   Journal={Medical image analysis},
   Year={2019},

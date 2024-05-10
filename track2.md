@@ -46,7 +46,7 @@ The LAScarQS++ track aims to address these issues, driving the advancement of DL
 {% include figure.liquid loading="eager" path="/assets/img/lascarqs2.png" class="img-fluid" zoomable=true caption="Figure 2." %}
 The target of this track is to automatically segment LA cavity and quantify LA scars from LGE MRI (see Fig. 2). The track will provide 200+ LGE MRIs globally, i.e., from multiple imaging centers around the world, for developing novel algorithms that can quantify or segment LA cavity and scars. The track presents an open and fair platform for various research groups to test and validate their methods on these datasets acquired from the clinical environment. To ensure data privacy, the platform will enable remote training and testing on the dataset from different centers in local and the dataset can keep invisible.
 
-The selected papers will be published in our proceedings (see [previous proceedings](https://www.google.co.uk/books/edition/Left_Atrial_and_Scar_Quantification_and/dkq9EAAAQBAJ?hl=en&gbpv=0)).
+The selected papers will be published in our proceedings (see previous proceedings).
 
 Topics may cover (not exclusively):
 - Cardiac digital twins
@@ -64,20 +64,20 @@ We include 200+ multi-center LGE MRIs (enhanced.nii.gz) from different countries
 All these clinical data have got institutional ethic approval and have been anonymized (please follow the data usage agreement, i.e., CC BY NC ND).
 The details of these LGE MRI are listed below:
 
-*Center A*: 154 LGE MRIs
+- **Center A** 154 LGE MRIs
 
 This data was original collected from Utah [NAMIC-CARMA](https://www.insight-journal.org/midas/collection/view/197) with permission for release. [2018 Atrial Segmentation Challenge](https://atriaseg2018.cardiacatlas.org/) refined the LA segmentation of Utah NAMIC-CARMA dataset before final release.  Therefore, we adopted the refine dataset, and further fixed the resolution irregularities existing in this dataset. The clinical images were acquired with Siemens Avanto 1.5T or Vario 3T using free-breathing (FB) with navigator-gating.  The spatial resolution of the 3D LGE MRI scan was 0.625 × 0.625 × 2.5 mm.  The patient underwent an MR examination prior to ablation or was 3-6 months after ablation.
 
-*Center B*: 20 LGE MRIs
+- **Center B** 20 LGE MRIs
 
 This data was original collected from Beth Israel Deaconess Medical Center and was used in [ISBI2012 Left Atrium Fibrosis and Scar Segmentation Challenge](https://www.cardiacatlas.org/challenges/left-atrium-fibrosis-and-scar-segmentation-challenge/). We selected part of the dataset from this challenge and refine their manual segmentation before release. The clinical images were acquired with Philips Acheiva 1.5T using FB and navigator-gating with fat suppression. The spatial resolution of one 3D LGE MRI scan was 1.4 × 1.4 × 1.4 mm. The patient underwent an MR examination prior to ablation or was 1 month after ablation.
 
-*Center C*: 20 LGE MRIs
+- **Center C** 20 LGE MRIs
 
 This data was original collected from King’s College London and was used in [ISBI2012 Left Atrium Fibrosis and Scar Segmentation Challenge](https://www.cardiacatlas.org/challenges/left-atrium-fibrosis-and-scar-segmentation-challenge/). We selected part of the dataset from this challenge and refine their manual segmentation before release. The clinical images were also acquired with Philips Acheiva 1.5T using FB and navigator-gating with fat suppression. The spatial resolution of one 3D LGE MRI scan was 1.3 × 1.3 × 4.0 mm. The patient underwent an MR examination prior to ablation or was 3-6 months after ablation.
 
 <!--
-*Center C-2*: 40 LGE MRIs
+- **Center 2.2** 40 LGE MRIs
 
 This data was collected from King’s College London/ St Thomas' Hospital with permission for release. All patients underwent CMR imaging on a 1.5T scanner (Magnetom Area, Siemens Healthineers, Erlangen, Germany) using a previously described protocol. Twenty minutes after contrast administration, late gadolinium enhancement imaging was performed using an ECG-triggered, respiratory navigated, 3D whole heart, inversion recovery spoiled gradient echo sequence in axial orientation (spatial resolution 1.3 mm × 1.3 mm × 4.0 mm reconstructed to 1.3 × 1.3 × 2 mm, TR 4 ms, TE 2 ms, flip angle 20°), phase encoding direction; anterior–posterior, frequency encoding direction; right–left, parallel imaging; GRAPPA factor 2.
 -->
@@ -103,14 +103,14 @@ The dataset has been divided into three main parts: training, validation, and te
 The performance of scar and edema segmentation results will be evaluated by：
 
 *Task 1*:
-- *Generalized Dice Similarity Coefficient (G-DSC)* <d-cite key="lascarqs6">
-- *Accuracy (ACC)*
-- *Sensitivity (SEN)*
+- **Generalized Dice Similarity Coefficient (G-DSC) <d-cite key="lascarqs6">**
+- **Accuracy (ACC)**
+- **Sensitivity (SEN)**
 
 *Task 2*:
-- *Dice Similarity Coefficient (DSC)*
-- *Average Surface Distance (ASD)*
-- *Hausdorff Distance (HD)*
+- **Dice Similarity Coefficient (DSC)**
+- **Average Surface Distance (ASD)**
+- **Hausdorff Distance (HD)**
 
 ### Award
 
@@ -133,45 +133,45 @@ After registration, we will assign the participant an account to login into our 
 TBC
 
 ## Timeline
-The schedule for this track is as follows. All deadlines are on 12:00 pm in Pacific Standard Time.
+The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.
 
 <table class="table table-sm table-hover border-bottom">
     <tr>
-    <td class="text-left"><strong>Training Data Release</strong></td>
+    <td><strong>Training Data Release</strong></td>
     <th scope="row" style="width: 60%" class="text-right">May 10, 2024</th>
     </tr>
     <tr>
-    <td class="text-left"><strong>Validation Start</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 10, 2024</th>
+    <td><strong>Validation Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 7, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td class="text-left"><strong>Abstract Submission Deadline</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024</th>
+    <td><strong>Test Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td class="text-left"><strong>Test Deadline</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 10, 2024</th>
+    <td><strong>Abstract Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 15, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td class="text-left"><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024</th>
+    <td><strong>Paper Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">August 15, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td class="text-left"><strong>Paper Result Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 1, 2024</th>
-    </tr>
-    <tr>
-    <td class="text-left"><strong>Camera Ready</strong></td>
+    <td><strong>Notification</strong></td>
     <th scope="row" style="width: 60%" class="text-right">September 15, 2024</th>
     </tr>
     <tr>
-    <td class="text-left"><strong>Workshop (Half-Day)</strong></td>
+    <td><strong>Camera Ready</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">September 25, 2024 (DDL)</th>
+    </tr>
+    <tr>
+    <td><strong>Workshop (Half-Day)</strong></td>
     <th scope="row" style="width: 60%" class="text-right">October 10, 2024</th>
     </tr>
 </table>
 
 ## Citations
-Please cite these papers when you use the data for publications:
+**Please cite these papers when you use the data for publications:**
 ```bib
  @article{journal/MedIA/li2022,
   title={Medical image analysis on left atrial LGE MRI for atrial fibrillation studies: A review},

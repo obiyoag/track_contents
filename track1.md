@@ -53,48 +53,48 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Center</th>
-      <th scope="col">Num. patients</th>
-      <th scope="col">Sequences</th>
-      <th scope="col">Manual labels</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Sequences</th>
+      <th class="text-center" scope="col">Manual labels</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>81</td>
-      <td>LGE</td>
-      <td>Scar, left ventricle and  myocardium</td>
+      <td class="text-center">1</td>
+      <td class="text-center">81</td>
+      <td class="text-center">LGE</td>
+      <td class="text-center">Scar, left ventricle and  myocardium</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>50</td>
-      <td>LGE, T2 and bSSFP</td>
-      <td>Scar, edema, left ventricle,  myocardium and right ventricle</td>
+      <td class="text-center">2</td>
+      <td class="text-center">50</td>
+      <td class="text-center">LGE, T2 and bSSFP</td>
+      <td class="text-center">Scar, edema, left ventricle,  myocardium and right ventricle</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>45</td>
-      <td>LGE, T2 and bSSFP</td>
-      <td>Scar, edema, left ventricle,  myocardium and right ventricle</td>
+      <td class="text-center">3</td>
+      <td class="text-center">45</td>
+      <td class="text-center">LGE, T2 and bSSFP</td>
+      <td class="text-center">Scar, edema, left ventricle,  myocardium and right ventricle</td>
     </tr>
     <tr>
-      <td>5</td>
-      <td>07</td>
-      <td>LGE and bSSFP</td>
-      <td>Scar, left ventricle,  myocardium and and right ventricle</td>
+      <td class="text-center">5</td>
+      <td class="text-center">07</td>
+      <td class="text-center">LGE and bSSFP</td>
+      <td class="text-center">Scar, left ventricle,  myocardium and and right ventricle</td>
     </tr>
     <tr>
-      <td>6</td>
-      <td>09</td>
-      <td>LGE and bSSFP</td>
-      <td>Scar, left ventricle,  myocardium and and right ventricle</td>
+      <td class="text-center">6</td>
+      <td class="text-center">09</td>
+      <td class="text-center">LGE and bSSFP</td>
+      <td class="text-center">Scar, left ventricle,  myocardium and and right ventricle</td>
     </tr>
     <tr>
-      <td>7</td>
-      <td>08</td>
-      <td>LGE and bSSFP</td>
-      <td>Scar, left ventricle,  myocardium and and right ventricle</td>
+      <td class="text-center">7</td>
+      <td class="text-center">08</td>
+      <td class="text-center">LGE and bSSFP</td>
+      <td class="text-center">Scar, left ventricle,  myocardium and and right ventricle</td>
     </tr>
   </tbody>
 </table>
@@ -107,30 +107,30 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Vendor</th>
-      <th scope="col">Center</th>
-      <th scope="col">Num. studies</th>
-      <th scope="col">Num. Annotations</th>
+      <th class="text-center" scope="col">Vendor</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. studies</th>
+      <th class="text-center" scope="col">Num. Annotations</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>A</td>
-      <td>A</td>
-      <td>100</td>
-      <td>10</td>
+      <td class="text-center">A</td>
+      <td class="text-center">A</td>
+      <td class="text-center">100</td>
+      <td class="text-center">10</td>
     </tr>
     <tr>
-      <td>B</td>
-      <td>B1</td>
-      <td>100</td>
-      <td>10</td>
+      <td class="text-center">B</td>
+      <td class="text-center">B1</td>
+      <td class="text-center">100</td>
+      <td class="text-center">10</td>
     </tr>
     <tr>
-      <td>B</td>
-      <td>B2</td>
-      <td>50</td>
-      <td>10</td>
+      <td class="text-center">B</td>
+      <td class="text-center">B2</td>
+      <td class="text-center">50</td>
+      <td class="text-center">10</td>
     </tr>
   </tbody>
 </table>
@@ -142,31 +142,31 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Center</th>
-      <th scope="col">Num. patients</th>
-      <th scope="col">Modalities</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Modalities</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>A</td>
-      <td>20</td>
-      <td>CT</td>
+      <td class="text-center">A</td>
+      <td class="text-center">20</td>
+      <td class="text-center">CT</td>
     </tr>
     <tr>
-      <td>B</td>
-      <td>20</td>
-      <td>CT</td>
+      <td class="text-center">B</td>
+      <td class="text-center">20</td>
+      <td class="text-center">CT</td>
     </tr>
     <tr>
-      <td>C/D</td>
-      <td>20</td>
-      <td>MRI</td>
+      <td class="text-center">C/D</td>
+      <td class="text-center">20</td>
+      <td class="text-center">MRI</td>
     </tr>
     <tr>
-      <td>E</td>
-      <td>26</td>
-      <td>MRI</td>
+      <td class="text-center">E</td>
+      <td class="text-center">26</td>
+      <td class="text-center">MRI</td>
     </tr>
   </tbody>
 </table>
@@ -177,18 +177,18 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Center</th>
-      <th scope="col">Modality</th>
-      <th scope="col">Num. task1</th>
-      <th scope="col">Num. task2</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Modality</th>
+      <th class="text-center" scope="col">Num. task1</th>
+      <th class="text-center" scope="col">Num. task2</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>A</td>
-      <td>LGE MRI</td>
-      <td>60</td>
-      <td>130</td>
+      <td class="text-center">A</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">60</td>
+      <td class="text-center">130</td>
     </tr>
 
   </tbody>
@@ -203,18 +203,18 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Center</th>
-      <th scope="col">Num. patients</th>
-      <th scope="col">Sequences</th>
-      <th scope="col">Manual labels</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Sequences</th>
+      <th class="text-center" scope="col">Manual labels</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>4</td>
-      <td>25</td>
-      <td>LGE, T2 and bSSFP</td>
-      <td>Scar, edema, left ventricle,  myocardium and right ventricle</td>
+      <td class="text-center">4</td>
+      <td class="text-center">25</td>
+      <td class="text-center">LGE, T2 and bSSFP</td>
+      <td class="text-center">Scar, edema, left ventricle,  myocardium and right ventricle</td>
     </tr>
   </tbody>
 </table>
@@ -226,30 +226,30 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Vendor</th>
-      <th scope="col">Center</th>
-      <th scope="col">Num. studies</th>
-      <th scope="col">Num. Annotations</th>
+      <th class="text-center" scope="col">Vendor</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. studies</th>
+      <th class="text-center" scope="col">Num. Annotations</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>A</td>
-      <td>A</td>
-      <td>10</td>
-      <td>10</td>
+      <td class="text-center">A</td>
+      <td class="text-center">A</td>
+      <td class="text-center">10</td>
+      <td class="text-center">10</td>
     </tr>
     <tr>
-      <td>B</td>
-      <td>B1</td>
-      <td>10</td>
-      <td>10</td>
+      <td class="text-center">B</td>
+      <td class="text-center">B1</td>
+      <td class="text-center">10</td>
+      <td class="text-center">10</td>
     </tr>
     <tr>
-      <td>B</td>
-      <td>B2</td>
-      <td>10</td>
-      <td>10</td>
+      <td class="text-center">B</td>
+      <td class="text-center">B2</td>
+      <td class="text-center">10</td>
+      <td class="text-center">10</td>
     </tr>
   </tbody>
 </table>
@@ -261,26 +261,26 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Center</th>
-      <th scope="col">Num. patients</th>
-      <th scope="col">Modalities</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Modalities</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>A</td>
-      <td>20</td>
-      <td>CT</td>
+      <td class="text-center">A</td>
+      <td class="text-center">20</td>
+      <td class="text-center">CT</td>
     </tr>
     <tr>
-      <td>B</td>
-      <td>10</td>
-      <td>CT</td>
+      <td class="text-center">B</td>
+      <td class="text-center">10</td>
+      <td class="text-center">CT</td>
     </tr>
     <tr>
-      <td>C/D</td>
-      <td>20</td>
-      <td>MRI</td>
+      <td class="text-center">C/D</td>
+      <td class="text-center">20</td>
+      <td class="text-center">MRI</td>
     </tr>
   </tbody>
 </table>
@@ -291,24 +291,24 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Center</th>
-      <th scope="col">Modality</th>
-      <th scope="col">Num. task1</th>
-      <th scope="col">Num. task2</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Modality</th>
+      <th class="text-center" scope="col">Num. task1</th>
+      <th class="text-center" scope="col">Num. task2</th>
     </tr>
   </thead>
   <tbody>
      <tr>
-      <td>A</td>
-      <td>LGE MRI</td>
-      <td>10</td>
-      <td>10</td>
+      <td class="text-center">A</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">10</td>
+      <td class="text-center">10</td>
     </tr>
     <tr>
-      <td>C</td>
-      <td>LGE MRI</td>
-      <td>0</td>
-      <td>10</td>
+      <td class="text-center">C</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">0</td>
+      <td class="text-center">10</td>
     </tr>
   </tbody>
 </table>
@@ -322,18 +322,18 @@ Multi-center datasets are provided for four sub-tasks. More detailed data inform
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Center</th>
-      <th scope="col">Num. patients</th>
-      <th scope="col">Sequences</th>
-      <th scope="col">Manual labels</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Sequences</th>
+      <th class="text-center" scope="col">Manual labels</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>4</td>
-      <td>25</td>
-      <td>LGE, T2 and bSSFP</td>
-      <td>Scar, edema, left ventricle,  myocardium and right ventricle</td>
+      <td class="text-center">4</td>
+      <td class="text-center">25</td>
+      <td class="text-center">LGE, T2 and bSSFP</td>
+      <td class="text-center">Scar, edema, left ventricle,  myocardium and right ventricle</td>
     </tr>
   </tbody>
 </table>
@@ -347,31 +347,31 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:50%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Vendor</th>
-      <th scope="col">Center</th>
-      <th scope="col">Num. studies</th>
+      <th class="text-center" scope="col">Vendor</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. studies</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>A</td>
-      <td>A</td>
-      <td>40</td>
+      <td class="text-center">A</td>
+      <td class="text-center">A</td>
+      <td class="text-center">40</td>
     </tr>
     <tr>
-      <td>B</td>
-      <td>B1</td>
-      <td>40</td>
+      <td class="text-center">B</td>
+      <td class="text-center">B1</td>
+      <td class="text-center">40</td>
     </tr>
     <tr>
-      <td>B</td>
-      <td>B2</td>
-      <td>40</td>
+      <td class="text-center">B</td>
+      <td class="text-center">B2</td>
+      <td class="text-center">40</td>
     </tr>
     <tr>
-      <td>C (new)</td>
-      <td>C</td>
-      <td>40</td>
+      <td class="text-center">C (new)</td>
+      <td class="text-center">C</td>
+      <td class="text-center">40</td>
     </tr>
   </tbody>
 </table>
@@ -384,31 +384,31 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Center</th>
-      <th scope="col">Num. patients</th>
-      <th scope="col">Modalities</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Num. patients</th>
+      <th class="text-center" scope="col">Modalities</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>A</td>
-      <td>20</td>
-      <td>CT</td>
+      <td class="text-center">A</td>
+      <td class="text-center">20</td>
+      <td class="text-center">CT</td>
     </tr>
     <tr>
-      <td>B</td>
-      <td>14</td>
-      <td>CT</td>
+      <td class="text-center">B</td>
+      <td class="text-center">14</td>
+      <td class="text-center">CT</td>
     </tr>
     <tr>
-      <td>C/D</td>
-      <td>20</td>
-      <td>MRI</td>
+      <td class="text-center">C/D</td>
+      <td class="text-center">20</td>
+      <td class="text-center">MRI</td>
     </tr>
     <tr>
-      <td>F</td>
-      <td>16</td>
-      <td>MRI</td>
+      <td class="text-center">F</td>
+      <td class="text-center">16</td>
+      <td class="text-center">MRI</td>
     </tr>
   </tbody>
 </table>
@@ -419,36 +419,36 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th scope="col">Center</th>
-      <th scope="col">Modality</th>
-      <th scope="col">Num. task1</th>
-      <th scope="col">Num. task2</th>
+      <th class="text-center" scope="col">Center</th>
+      <th class="text-center" scope="col">Modality</th>
+      <th class="text-center" scope="col">Num. task1</th>
+      <th class="text-center" scope="col">Num. task2</th>
     </tr>
   </thead>
   <tbody>
      <tr>
-      <td>A</td>
-      <td>LGE MRI</td>
-      <td>24</td>
-      <td>14</td>
+      <td class="text-center">A</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">24</td>
+      <td class="text-center">14</td>
     </tr>
     <tr>
-      <td>B</td>
-      <td>LGE MRI</td>
-      <td>0</td>
-      <td>20</td>
+      <td class="text-center">B</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">0</td>
+      <td class="text-center">20</td>
     </tr>
 <!--     <tr>
-      <td>2.2</td>
-      <td>LGE MRI</td>
-      <td>0</td>
-      <td>40</td>
+      <td class="text-center">2.2</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">0</td>
+      <td class="text-center">40</td>
     </tr> -->
     <tr>
-      <td>C</td>
-      <td>LGE MRI</td>
-      <td>0</td>
-      <td>10</td>
+      <td class="text-center">C</td>
+      <td class="text-center">LGE MRI</td>
+      <td class="text-center">0</td>
+      <td class="text-center">10</td>
     </tr>
    
 
@@ -459,7 +459,7 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 ### Prompts
 
 <div style="text-align: center;">
-  {% include figure.liquid loading="eager" path="/assets/img/tfm4media2.png" class="img-fluid" max-width="360px" zoomable=true caption="Figure 2. An example of acceptable prompts." %}
+  {% include figure.liquid loading="eager" path="/assets/img/tfm4media2.png" class="img-fluid" max-width="25vw" zoomable=true caption="Figure 2. An example of acceptable prompts." %}
 </div>
 
 + Only **points** or **bounding boxes** are acceptable as **prompts**. Participants can generate prompts based on the segmentation ground truth by themselves for the training dataset.
@@ -497,41 +497,40 @@ TBD
 
 
 ## Timeline
-The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
+The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.
 
 <table class="table table-sm table-hover border-bottom">
     <tr>
-   <td class="text-left"><strong>Training Data Release</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">May 10, 2024, 23:59:59</th>
+    <td><strong>Training Data Release</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">May 10, 2024</th>
     </tr>
     <tr>
-   <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 7 to July 7, 2024, 23:59:59 (DDL)</th>
+    <td><strong>Validation Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 7, 2024 (DDL)</th>
     </tr>
     <tr>
-   <td class="text-left"><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7 to August 7, 2024, 23:59:59 (DDL)</th>
+    <td><strong>Test Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024 (DDL)</th>
     </tr>
-  <tr>
-   <td class="text-left"><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024, 23:59:59 (DDL)</th>
+    <tr>
+    <td><strong>Abstract Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 15, 2024 (DDL)</th>
     </tr>
-  <tr>
-   <td class="text-left"><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024, 23:59:59 (DDL)</th>
+    <tr>
+    <td><strong>Paper Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">August 15, 2024 (DDL)</th>
     </tr>
-  <tr>
-   <td class="text-left"><strong>Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 15, 2024, 23:59:59</th>
+    <tr>
+    <td><strong>Notification</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">September 15, 2024</th>
     </tr>
-  <tr>
-   <td class="text-left"><strong>Camera Ready</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 1, 2024, 23:59:59 (DDL)</th>
+    <tr>
+    <td><strong>Camera Ready</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">September 25, 2024 (DDL)</th>
     </tr>
-  <tr>
-   <td class="text-left"><strong>Workshop (Half-Day)</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 7, 2024
-</th>
+    <tr>
+    <td><strong>Workshop (Half-Day)</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">October 10, 2024</th>
     </tr>
 </table>
 

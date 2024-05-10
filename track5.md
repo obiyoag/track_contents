@@ -144,28 +144,28 @@ The schedule for this track is as follows. All deadlines are on 24:00 in Pacific
     <th scope="row" style="width: 60%" class="text-right">May 10, 2024</th>
     </tr>
     <tr>
-    <td><strong>Validation Deadline</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 10, 2024</th>
+    <td><strong>Validation Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 10, 2024</th>
+    </tr>
+    <tr>
+    <td><strong>Test Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024</th>
     </tr>
     <tr>
     <td><strong>Abstract Submission</strong></td>
     <th scope="row" style="width: 60%" class="text-right">July 15, 2024</th>
     </tr>
     <tr>
-    <td><strong>Test Deadline</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 1, 2024</th>
-    </tr>
-    <tr>
     <td><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 10, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">August 15, 2024</th>
     </tr>
     <tr>
     <td><strong>Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 1, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">September 15, 2024</th>
     </tr>
     <tr>
     <td><strong>Camera Ready</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 15, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">September 25, 2024</th>
     </tr>
     <tr>
     <td><strong>Workshop (Half-Day)</strong></td>

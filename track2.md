@@ -100,7 +100,7 @@ The dataset has been divided into three main parts: training, validation, and te
 
 ## Metrics & Award
 ### Metrics
-The performance of scar and edema segmentation results will be evaluated by：
+The performance of LA cavity segmentation or LA scar quantification results will be evaluated by：
 
 *Task 1*:
 - *Generalized Dice Similarity Coefficient (G-DSC)* <d-cite key="lascarqs6">

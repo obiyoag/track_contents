@@ -178,7 +178,7 @@ After registration, we will assign participants an account to login into our [My
 TBD
 
 ## Timeline
-The schedule for this track is as follows. All deadlines are on 24:00 in Pacific Standard Time.
+The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.
 
 <table class="table table-sm table-hover border-bottom">
     <tr>
@@ -187,19 +187,19 @@ The schedule for this track is as follows. All deadlines are on 24:00 in Pacific
     </tr>
     <tr>
     <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 10, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 7, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">July 15, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">August 15, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Notification</strong></td>
@@ -207,7 +207,7 @@ The schedule for this track is as follows. All deadlines are on 24:00 in Pacific
     </tr>
     <tr>
     <td class="text-left"><strong>Camera Ready</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 25, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">September 25, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Workshop (Half-Day)</strong></td>

@@ -142,8 +142,6 @@ Each CMR sequence and gold standard label of patients will be provided in the NI
 
 ## Metrics
 
-### Metrics
-
 The performance of scar and edema segmentation results will be evaluated by：
 - **Dice Similarity Coefficient (DSC)**
 - **Accuracy (ACC)**

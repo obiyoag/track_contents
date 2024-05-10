@@ -8,6 +8,7 @@ toc:
   - name: Motivation
   - name: Task
   - name: Data
+  - name: Guidance for Training Strategies
   - name: Metrics & Ranking
   - name: Rules
   - name: Registration
@@ -71,7 +72,7 @@ Further details are provided in Fig. 2. Note that both the images and labels of 
 
 ### Data Format
 
-All data will be provided in the nifty format as [Case Identifier]_[image/label].nii.gz. 
+All data will be provided in the NIfTI format as [Case Identifier]_[image/label].nii.gz. 
 
 ### Data Acquisition
 
@@ -135,40 +136,40 @@ Topics may cover (not exclusively):
 - Model generalization
 
 ## Timeline
-The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
+The schedule for this track is as follows. All deadlines are on 24:00 in Pacific Standard Time.
 
 <table class="table table-sm table-hover border-bottom">
     <tr>
     <td><strong>Training Data Release</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">May 7, 2024, 23:59:59</th>
+    <th scope="row" style="width: 60%" class="text-right">May 10, 2024</th>
     </tr>
     <tr>
-    <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 7 to July 7, 2024, 23:59:59 (DDL)</th>
-    </tr>
-    <tr>
-    <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7 to August 7, 2024, 23:59:59 (DDL)</th>
+    <td><strong>Validation Deadline</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 10, 2024</th>
     </tr>
     <tr>
     <td><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024, 23:59:59 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">July 15, 2024</th>
+    </tr>
+    <tr>
+    <td><strong>Test Deadline</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">August 1, 2024</th>
     </tr>
     <tr>
     <td><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024, 23:59:59 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">August 10, 2024</th>
     </tr>
     <tr>
     <td><strong>Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 15, 2024, 23:59:59</th>
+    <th scope="row" style="width: 60%" class="text-right">September 1, 2024</th>
     </tr>
     <tr>
     <td><strong>Camera Ready</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 1, 2024, 23:59:59 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">September 15, 2024</th>
     </tr>
     <tr>
     <td><strong>Workshop (Half-Day)</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    <th scope="row" style="width: 60%" class="text-right">October 10, 2024</th>
     </tr>
 </table>
 

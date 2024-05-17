@@ -261,7 +261,7 @@ The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in P
 
 ## Contact
 
-If you have any questions regarding the MyoPS++ track, please feel free to contact: 
+If you have any questions regarding the LiQA track, please feel free to contact: 
 
 * Jiyao Liu: [jiyaoliu.fudan@gmail.com](mailto:jiyaoliu.fudan@gmail.com)
 * Yuanye Liu: [yuanyeliu@fudan.edu.cn](mailto:yuanyeliu@fudan.edu.cn)

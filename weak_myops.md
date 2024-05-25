@@ -165,19 +165,19 @@ The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in P
     </tr>
     <tr>
     <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 10, 2024 to July 7, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">July 10, 2024 to July 18, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 7, 2024 to August 7, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">October 15, 2024 to October 22, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 15, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">October 30, 2024</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Workshop (Half-Day)</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">November 12, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">November 15, 2024</th>
     </tr>
 </table>
 

@@ -165,7 +165,7 @@ The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in P
     </tr>
     <tr>
     <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 10, 2024 to July 18, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">September 24, 2024 to September 30, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Test Phase</strong></td>

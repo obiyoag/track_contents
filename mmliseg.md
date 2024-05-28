@@ -121,21 +121,26 @@ The schedule for this track is as follows. All deadlines are on 12:00 pm in Paci
 <table class="table table-sm table-hover border-bottom">
     <tr>
     <td><strong>Training Data Release</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">May 20, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">June 1, 2024</th>
     </tr>
     <tr>
     <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 20, 2024 to August 20, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">August 1, 2024 to September 1, 2024 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 20, 2024 to September 20, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">September 1, 2024 to October 1, 2024 (DDL)</th>
+    </tr>
+    <tr>
+    <td><strong>Notification</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">October 5 </th>
     </tr>
     <tr>
     <td><strong>Workshop (Half-Day)</strong></td>
     <th scope="row" style="width: 60%" class="text-right">November 8, 2024</th>
     </tr>
 </table>
+
 
 
 

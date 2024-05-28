@@ -1,13 +1,15 @@
 ---
 layout: distill
-title: MMLiSeg
+title:MMLiSeg
 description: Liver Segmentation Challenge
-permalink: /mmliseg/
+permalink: /track22/
+bibliography: reference.bib
 toc:
   - name: Motivation
   - name: Task
   - name: Data
-  - name: Metrics and Award
+  - name: Metrics & Award
+  - name: Rules
   - name: Registration
   - name: Submission Guidance
   - name: Timeline
@@ -27,12 +29,9 @@ _styles: >
   }
 ---
 
-<div style="text-align: center;">
-{% include figure.liquid loading="eager" path="/assets/img/mmliseg.png" class="img-fluid" max-width="500px" zoomable=true %}
-</div>
-
-
 ## Motivation
+
+![image-20240513144054836](/Users/bominwang/Library/Application Support/typora-user-images/image-20240513144054836.png)
 
 The liver, being the largest solid organ in the human body, is crucial for metabolism and digestion. Accurate and precise segmentation of liver is essential for diagnosing cancer, planning treatment, and monitoring treatment response. However, current deep learning practice has poor generalizability facing domain shifts, that is, when deep learning models are evaluated on unseen datasets with different imaging modalities, the accuracy of segmentation can significantly decrease. This challenge, Multi-modality Liver Segmentation Challenge (MMLiSeg), aims to contribute to the effort of motivate participants to create generalizable automatic segmentation algorithms that can accurately segmentation across imaging modalities.
 
@@ -92,14 +91,14 @@ The dataset has been divided into three main parts: training, validation, and te
 
 
 
-## Metrics and Award
+## Metrics & Award
 
 ### Metrics
 
 The performance of scar and edema segmentation results will be evaluated by：
 
 - *Dice Similarity Coefficient (DSC)*
-- *Hausdorff Distance (HD)*
+- *Hausdorff Distance (HD), and*
 - *Average Surface Distance (ASD)*
 
 ### Award
@@ -108,16 +107,13 @@ The performance will be evaluated based on the of the submitted models. The best
 
 ## Registration
 
-To access the dataset, please register in the MMLiSeg registration platform.
+To access the dataset, please [sign up](http://zmic.org.cn/care_2024/eval/register?track=MMLiSeg) in the MMLiSeg registration platform.
 
 ## Submission Guidance
 
 ### Model Submission
 
-After registration, we will assign the participant an account to login into our evaluation platform. Participants can directly upload your predictions on the validation data (in nii.gz format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
-
-### Paper submission
-TBC
+After registration, we will assign the participant an account to login into our [evaluation platform](http://zmic.org.cn/). Participants can directly upload your predictions on the validation data (in nii.gz format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
 ## Timeline
 The schedule for this track is as follows. All deadlines are on 12:00 pm in Pacific Standard Time.
@@ -129,17 +125,18 @@ The schedule for this track is as follows. All deadlines are on 12:00 pm in Paci
     </tr>
     <tr>
     <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 30, 2024 to July 31, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">July 20, 2024 to August 20, 2024 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 1, 2024 to September 1, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">August 20, 2024 to September 20, 2024 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Workshop (Half-Day)</strong></td>
     <th scope="row" style="width: 60%" class="text-right">November 8, 2024</th>
     </tr>
 </table>
+
 
 
 ## Citations
@@ -163,7 +160,7 @@ Please cite these papers when you use the data for publications:
 
 ## Contact
 
-If you have any questions regarding the MMLiSeg challenge, please feel free to contact:
+If you have any questions regarding the LAScarQS++ track, please feel free to contact:
 
 - Bomin Wang: [21110980022@m.fudan.edu.cn](mailto:21110980022@m.fudan.edu.cn)
 - Binwang Ding: [dingwangbin@fjmu.edu.cn](mailto:dingwangbin@fjmu.edu.cn)

@@ -161,23 +161,23 @@ The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in P
 <table class="table table-sm table-hover border-bottom">
     <tr>
     <td class="text-left"><strong>Training Data Release</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 10, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">June 1, 2024</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 24, 2024 to September 30, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">August 1, 2024 to September 1, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 15, 2024 to October 22, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">September 1, 2024 to October 1, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 30, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">October 5, 2024</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Workshop (Half-Day)</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">November 15, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">November 8, 2024</th>
     </tr>
 </table>
 

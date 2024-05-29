@@ -108,16 +108,13 @@ The performance will be evaluated based on the of the submitted models. The best
 
 ## Registration
 
-To access the dataset, please register in the MMLiSeg registration platform.
+To access the dataset, please [sign up](http://zmic.org.cn/care_2024/eval/register?track=MMLiSeg) to participate in the challenge and get access to the dataset.
 
 ## Submission Guidance
 
 ### Model Submission
 
-After registration, we will assign the participant an account to login into our evaluation platform. Participants can directly upload your predictions on the validation data (in nii.gz format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
-
-### Paper submission
-TBC
+After registration, we will assign the participant an account to login into our [evaluation platform](http://zmic.org.cn/). Participants can directly upload your predictions on the validation data (in nii.gz format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
 ## Timeline
 The schedule for this track is as follows. All deadlines are on 12:00 pm in Pacific Standard Time.
@@ -125,21 +122,26 @@ The schedule for this track is as follows. All deadlines are on 12:00 pm in Paci
 <table class="table table-sm table-hover border-bottom">
     <tr>
     <td><strong>Training Data Release</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">May 20, 2024</th>
+    <th scope="row" style="width: 60%" class="text-right">June 1, 2024</th>
     </tr>
     <tr>
     <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 30, 2024 to July 31, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">August 1, 2024 to September 1, 2024 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 1, 2024 to September 1, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">September 1, 2024 to October 1, 2024 (DDL)</th>
+    </tr>
+    <tr>
+    <td><strong>Notification</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">October 5 </th>
     </tr>
     <tr>
     <td><strong>Workshop (Half-Day)</strong></td>
     <th scope="row" style="width: 60%" class="text-right">November 8, 2024</th>
     </tr>
 </table>
+
 
 
 ## Citations

@@ -188,7 +188,7 @@ The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in P
 
 If you have any questions regarding the challenge, please feel free to contact:
 
-- Dr. Wangbin Ding: [dingwangbin@fjmu.edu.cn](mailto:dingwangbin@fjmu.edu.cn)
-- KangWen Yang: [231120114@fzu.edu.cn](mailto:231120114@fzu.edu.cn)
+- Email1: [care_acait2024@outlook.com](mailto:care_acait2024@outlook.com)
+- Email2: [care_acait2024@163.com](mailto:care_acait2024@163.com)
 
 

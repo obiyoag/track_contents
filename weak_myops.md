@@ -1,9 +1,8 @@
 ---
 layout: distill
-title: MyoPS
+title: Weak MyoPS
 description: Weakly Supervised Myocardial Pathology Segmentation
-permalink: /track4/
-bibliography: reference.bib
+permalink: /weak_myops/
 toc:
   - name: Motivation
   - name: Task
@@ -29,7 +28,7 @@ _styles: >
 ---
 
 ## Motivation
-{% include figure.liquid loading="eager" path="/assets/img/myops.png" class="img-fluid" zoomable=true caption="Figure 1. Fully supervised and weakly supervised myocardial pathology segmentation." %}
+{% include figure.liquid loading="eager" path="/assets/img/weak_myops.png" class="img-fluid" zoomable=true caption="Figure 1. Fully supervised and weakly supervised myocardial pathology segmentation." %}
 
 
 Myocardial infarction is a common and serious cardiovascular disease that leads to necrosis and scar formation in cardiac tissues, significantly impacting patients' quality of life and health. Utilizing cardiac magnetic resonance (CMR) imaging techniques, particularly the late gadolinium enhancement (LGE) sequence, allows for the visualization of infarcted scar regions within the myocardium. However, manual segmentation of infarcted scars from LGE images is a time-consuming and labor-intensive task, while automated segmentation methods can enhance efficiency and reduce human error. 

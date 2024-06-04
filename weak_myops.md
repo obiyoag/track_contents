@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Weak MyoPS
+title: Weakly Supervised MyoPS
 description: Weakly Supervised Myocardial Pathology Segmentation
 permalink: /weak_myops/
 toc:

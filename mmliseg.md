@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: MMLiSeg
-description: Liver Segmentation Challenge
+description: Multi-modality Liver Segmentation Challenge
 permalink: /mmliseg/
 toc:
   - name: Motivation

@@ -145,7 +145,7 @@ The best work, following the precedent of [MyoPS 2020](https://zmiclab.github.io
 
 
 ## Registration
-Please [**sign up**](http://zmic.org.cn/care_2024/eval/register?track=Weak_MyoPS) to join this track.
+Please [**sign up**](http://zmic.org.cn/care_2024/eval/register?track=Weakly_Supervised_MyoPS) to join this track.
 
 ## Submission Guidance
 

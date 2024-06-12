@@ -78,8 +78,6 @@ All data will be provided in the NIfTI format as [Case Identifier]_[image/label]
 
 The cardiac CT/CTA data were acquired using standard coronary CT angiography protocols. At Center A, imaging was conducted with 64-slice Philips CT scanners. Center B used a dual-source SIEMENS CT scanner or a high-end, single-source GE CT scanner. The cardiac MRI data were obtained using various steady-state free precession (SSFP) sequences, adaptable for both free-breathing and breath-held imaging. Centers C and D employed either a 1.5T Philips scanner or a Siemens Avanto 1.5T scanner for scanning. Center E utilized Philips Achieva 1.5T scanners. Center F conducted its imaging with a Siemens Avanto 1.5T scanner. This diversity in the data acquisition process across centers underscores the extensive scope and scale of the dataset.
 
-Note that the resolution of images in validation/test dataset were adjusted to 1.0 × 1.0 × 1.0 mm for convenience.
-
 ### Guidance for Training Strategies
 
 To facilitate a well-informed training process, information about the imaging centers will be provided alongside the cases, indicated by the case naming (refer to Fig. 2).  Participants are strongly encouraged to use this information to design training strategies that aim for high generalization capability. This approach is intended to promote the development of algorithms that perform robustly not only under controlled conditions but also across diverse real-world clinical environments.

@@ -144,8 +144,9 @@ Each CMR sequence and gold standard label of patients will be provided in the NI
 
 The performance of scar and edema segmentation results will be evaluated by：
 - **Dice Similarity Coefficient (DSC)**
-- **Accuracy (ACC)**
+- **Precision (Pre)**
 - **Sensitivity (SEN)**
+- **Hausdorff Distance (HD)**
 
 Note that the track will provide an open platform for research groups to [validate](http://zmic.org.cn/care_2024/eval/scoreboard?track=MyoPS%2B%2B) and [test](http://zmic.org.cn/care_2024/test_submission) their methods. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/docker_tutorial) to our platform for testing.
 

@@ -180,7 +180,6 @@ The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in P
     </tr>
 </table>
 
-
 ## Organizer
 - Xiahai Zhuang, School of Data Science, Fudan University
 - Wangbin Ding, School of Imaging, Fujian Medical University

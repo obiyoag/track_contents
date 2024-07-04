@@ -11,7 +11,7 @@ toc:
   - name: Rules
   - name: Registration
   - name: Timeline
-  - name: Citations
+  - name: Orgnizer
   - name: Contact
 _styles: >
   d-article {
@@ -181,7 +181,10 @@ The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in P
 </table>
 
 
-
+## Orgnizer
+- Xiahai Zhuang, School of Data Science, Fudan University
+- Wangbin Ding, School of Imaging, Fujian Medical University
+- Liqin Huang, College of Physics and Information Engineering, Fuzhou University
 
 ## Contact
 
@@ -189,5 +192,7 @@ If you have any questions regarding the challenge, please feel free to contact:
 
 - Email1: [care_acait2024@outlook.com](mailto:care_acait2024@outlook.com)
 - Email2: [care_acait2024@163.com](mailto:care_acait2024@163.com)
+- Yibo Gao (contact person for IT support): ybgao22@m.fudan.edu.cn
+- Zhen Zhang (contact person for IT support): jmbbruce@163.com
 
 

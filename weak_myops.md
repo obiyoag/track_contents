@@ -11,7 +11,7 @@ toc:
   - name: Rules
   - name: Registration
   - name: Timeline
-  - name: Orgnizer
+  - name: Organizer
   - name: Contact
 _styles: >
   d-article {
@@ -181,7 +181,7 @@ The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in P
 </table>
 
 
-## Orgnizer
+## Organizer
 - Xiahai Zhuang, School of Data Science, Fudan University
 - Wangbin Ding, School of Imaging, Fujian Medical University
 - Liqin Huang, College of Physics and Information Engineering, Fuzhou University

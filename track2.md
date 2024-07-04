@@ -98,6 +98,16 @@ The dataset has been divided into three main parts: training, validation, and te
 - **Validation Set**: 10 LGE MRIs from Center A and 10 LGE MRIs from Center C
 - **Test Set**: 14 LGE MRIs from Center A, 20 LGE MRIs from Center B, and 10 LGE MRIs from Center C  <!-- , 40 LGE MRIs from Center 2.2-->
 
+### Data Format
+Each LGE MRI and gold standard label(s) of patients will be provided in the NIfTI format as follows:
+- enhanced.nii.gz (LGE MRI)
+- atriumSegImgMO.nii.gz (gold standard LA cavity label)
+- scarSegImgM.nii.gz (gold standard LA scar label, for task 1 only)
+
+The submitted format of the prediction for the participants could be named as follows:
+- LA_predict.nii.gz (predicted LA cavity label)
+- scar_predict.nii.gz (predicted LA scar label)
+  
 ## Metrics & Award
 ### Metrics
 The performance of LA cavity segmentation or LA scar quantification results will be evaluated by：

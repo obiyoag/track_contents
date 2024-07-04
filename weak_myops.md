@@ -181,7 +181,7 @@ The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in P
 </table>
 
 ## Organizer
-- Xiahai Zhuang, School of Data Science, Fudan University
+- [Xiahai Zhuang](https://zmiclab.github.io/zxh/), School of Data Science, Fudan University
 - Wangbin Ding, School of Imaging, Fujian Medical University
 - Liqin Huang, College of Physics and Information Engineering, Fuzhou University
 

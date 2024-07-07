@@ -174,4 +174,4 @@ If you have any questions regarding the MMLiSeg challenge, please feel free to c
 
 - Bomin Wang: [21110980022@m.fudan.edu.cn](mailto:21110980022@m.fudan.edu.cn)
 - Yibo Gao (contact person for IT support): [ybgao22@m.fudan.edu.cn](mailto:ybgao22@m.fudan.edu.cn)
-- Zhen Zhang (contact person for IT support): [jmbbruce@163.com](mailto:21110980022@m.fudan.edu.cn)
+- Zhen Zhang (contact person for IT support): [jmbbruce@163.com](mailto:jmbbruce@163.com)

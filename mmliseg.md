@@ -163,9 +163,15 @@ Please cite these papers when you use the data for publications:
 }
 ```
 
+## Organizer
+
+- [Xiahai Zhuang](https://zmiclab.github.io/zxh/), School of Data Science, Fudan University
+- Bomin Wang, School of Data Science, Fudan University
+
 ## Contact
 
 If you have any questions regarding the MMLiSeg challenge, please feel free to contact:
 
 - Bomin Wang: [21110980022@m.fudan.edu.cn](mailto:21110980022@m.fudan.edu.cn)
-- Binwang Ding: [dingwangbin@fjmu.edu.cn](mailto:dingwangbin@fjmu.edu.cn)
+- Yibo Gao (contact person for IT support): [ybgao22@m.fudan.edu.cn](mailto:ybgao22@m.fudan.edu.cn)
+- Zhen Zhang (contact person for IT support): [jmbbruce@163.com](mailto:jmbbruce@163.com)

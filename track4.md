@@ -188,19 +188,19 @@ The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in P
     </tr>
     <tr>
     <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 7, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"> <del>June 10, 2024 to July 7, 2024</del> July 1 to July 30, 2024 (DDL)  </th>
     </tr>
     <tr>
     <td class="text-left"><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><del>July 7, 2024 to August 7, 2024 (DDL)</del> TBC </th>
     </tr>
     <tr>
     <td class="text-left"><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"> <del>July 15, 2024</del> July 15 to August 15, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"> July 15 to August 15, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Notification</strong></td>

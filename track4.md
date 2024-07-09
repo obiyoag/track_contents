@@ -179,7 +179,7 @@ After registration, we will assign participants an account to login into our [My
  
 
 ### Paper submission
-Participants are also required to submit a paper via [CMT](https://cmt3.research.microsoft.com/CARE2024/Submission/Index) to describe their methods. For those competing for the **Best Paper Award**, **Nomination Award**, **Travel Award** and **Best Performance Award**, the paper will be assessed based on several key criteria: **Test Results**, **Generalizability of Methodologies**, and **Quality of the Manuscript**.
+Participants are also required to submit a paper via [CMT](https://cmt3.research.microsoft.com/CARE2024/Submission/Index) to describe their methods. For those competing for the **Best Paper Award**, **Nomination Award**, **Travel Award** and **Best Performance Award**, papers will be assessed based on several key criteria: **Test Results**, **Generalizability of Methodologies**, and **Quality of the Manuscript**.
 
 
 

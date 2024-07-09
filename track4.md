@@ -175,8 +175,14 @@ Please [**sign up**](http://zmic.org.cn/care_2024/eval/register?track=MyoPS%2B%2
 ### Model Submission
 After registration, we will assign participants an account to login into our [MyoPS++ evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=MyoPS%2B%2B). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
+
+ 
+
 ### Paper submission
-TBD
+Participants are also required to submit a paper via [CMT](https://cmt3.research.microsoft.com/CARE2024/Submission/Index) to describe their methods. For those competing for the **Best Paper Award**, **Nomination Award**, **Travel Award** and **Best Performance Award**, the paper will be assessed based on several key criteria: **Test Results**, **Generalizability of Methodologies**, and **Quality of the Manuscript**.
+
+
+
 
 ## Timeline
 The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.

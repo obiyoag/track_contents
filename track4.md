@@ -11,6 +11,7 @@ toc:
   - name: Metrics
   - name: Rules
   - name: Registration
+  - name: Submission Guidance
   - name: Timeline
   - name: Citations
   - name: Contact

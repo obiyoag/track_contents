@@ -506,7 +506,7 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
     </tr>
     <tr>
     <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right"> <del>June 7 to July 7, 2024,</del> July 1 to July 30, 2024 23:59:59 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"> <del> June 7 to July 7, 2024,</del> July 1 to July 30, 2024 23:59:59 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Test Phase</strong></td>

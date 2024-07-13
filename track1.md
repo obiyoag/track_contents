@@ -506,15 +506,15 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
     </tr>
     <tr>
     <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 7 to July 7, 2024, 23:59:59 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">~~June 7 to July 7, 2024,~~July 1 to July 30, 2024 23:59:59 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7 to August 7, 2024, 23:59:59 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">~~July 7 to August 7, 2024, 23:59:59 (DDL)~~ TBC</th>
     </tr>
   <tr>
     <td><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024, 23:59:59 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">~~July 15~~,July 25 2024, 23:59:59 (DDL)</th>
     </tr>
   <tr>
     <td><strong>Paper Submission</strong></td>

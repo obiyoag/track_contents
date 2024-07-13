@@ -493,8 +493,10 @@ Please register [here](http://zmic.org.cn/care_2024/eval/register?track=TFM4MedI
 After registration, we will assign participants an account to login into our [TFM4MedIA evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=TFM4MedIA). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
 ### Paper submission
-TBD
-
+You should submit using the [Conference Management Toolkit (CMT) website](https://cmt3.research.microsoft.com/CARE2024/). 
+- Upon accessing the submission platform, please select the  TFM4MedIA track after clicking the Create new submission button.
+- Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at [Lecture Notes in Computer Science](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
+- We recommend that manuscripts be structured to include up to 8 pages of content (text, figures, and tables), plus up to 2 pages for references. To provide flexibility, the submission may be extended up to a maximum of 12 pages, including both content and references.
 
 ## Timeline
 The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.
@@ -506,15 +508,15 @@ The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in P
     </tr>
     <tr>
     <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 7, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>June 10, 2024 to July 7, 2024 (DDL)</s> July 1, 2024 to July 30, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>July 7, 2024 to August 7, 2024 (DDL)</s> TBC</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>July 15, 2024 (DDL)</s> July 25, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Paper Submission</strong></td>

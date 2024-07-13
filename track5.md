@@ -49,6 +49,15 @@ The dataset includes **104 CT** and **102 MRI** volumes, sourced globally from *
 
 **Note on Great Vessels:** The great vessels of interest, comprising the ascending aorta and pulmonary artery, are specifically defined due to variations in the fields of view across different scans. This uniform definition is crucial for ensuring consistency across evaluations. During the assessment, segmentation results for these vessels will be truncated to average lengths measured in healthy subjects, although participants are encouraged to extend their segmentation beyond these lengths. Our provided manual segmentations similarly cover more than the defined trunk measurements.
 
+The selected papers will be published as part of the MICCAI Satellite Events joint LNCS proceedings.([see previous proceedings](https://link.springer.com/book/10.1007/978-3-319-75541-0)).
+
+Topics may cover (not exclusively):
+
+- Cardiac anatomy segmentation
+- Cardiac image registration
+- Cardiac modeling
+- Domain adaptation
+- Model generalization
 
 ## Data
 
@@ -123,15 +132,10 @@ Please register [here](http://zmic.org.cn/care_2024/eval/register?track=WHS%2B%2
 After registration, we will assign participants an account to login into our [WHS++ evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=WHS%2B%2B). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
 ### Paper submission
-The selected papers will be published in our proceedings ([see previous proceedings](https://link.springer.com/book/10.1007/978-3-319-75541-0)).
-
-Topics may cover (not exclusively):
-
-- Cardiac anatomy segmentation
-- Cardiac image registration
-- Cardiac modeling
-- Domain adaptation
-- Model generalization
+You should submit using the [Conference Management Toolkit (CMT) website](https://cmt3.research.microsoft.com/CARE2024/). 
+- Upon accessing the submission platform, please select the  WHS++ track after clicking the Create new submission button.
+- Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at [Lecture Notes in Computer Science](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
+- We recommend that manuscripts be structured to include up to 8 pages of content (text, figures, and tables), plus up to 2 pages for references. To provide flexibility, the submission may be extended up to a maximum of 12 pages, including both content and references.
 
 ## Timeline
 The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.
@@ -143,15 +147,15 @@ The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in P
     </tr>
     <tr>
     <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 7, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>June 10, 2024 to July 7, 2024 (DDL)</s> July 1, 2024 to July 30, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>July 7, 2024 to August 7, 2024 (DDL)</s> TBC</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>July 15, 2024 (DDL)</s> July 25, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Paper Submission</strong></td>

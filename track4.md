@@ -180,9 +180,11 @@ After registration, we will assign participants an account to login into our [My
  
 
 ### Paper submission
-Participants are also required to submit a paper via [CMT](https://cmt3.research.microsoft.com/CARE2024/Submission/Index) to describe their methods. For those competing for the **Best Paper Award**, **Nomination Award**, **Travel Award** and **Best Performance Award**, papers will be assessed based on several key criteria: **Test Results**, **Generalizability of Methodologies**, and **Quality of the Manuscript**.
 
-
+You should submit using the [Conference Management Toolkit (CMT) website](https://cmt3.research.microsoft.com/CARE2024/). 
+- Upon accessing the submission platform, please select the  MyoPS++ track after clicking the Create new submission button.
+- Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at [Lecture Notes in Computer Science](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
+- We recommend that manuscripts be structured to include up to 8 pages of content (text, figures, and tables), plus up to 2 pages for references. To provide flexibility, the submission may be extended up to a maximum of 12 pages, including both content and references.
 
 
 ## Timeline
@@ -195,15 +197,15 @@ The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in P
     </tr>
     <tr>
     <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right"> <del>June 10, 2024 to July 7, 2024</del> July 1 to July 30, 2024 (DDL)  </th>
+    <th scope="row" style="width: 60%" class="text-right"><s>June 10, 2024 to July 7, 2024 (DDL)</s> July 1, 2024 to July 30, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right"><del>July 7, 2024 to August 7, 2024 (DDL)</del> TBC </th>
+    <th scope="row" style="width: 60%" class="text-right"><s>July 7, 2024 to August 7, 2024 (DDL)</s> TBC</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right"> <del>July 15, 2024</del> July 15 to August 15, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>July 15, 2024 (DDL)</s> July 25, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Paper Submission</strong></td>
@@ -222,6 +224,7 @@ The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in P
     <th scope="row" style="width: 60%" class="text-right">October 10, 2024</th>
     </tr>
 </table>
+
 
 
 

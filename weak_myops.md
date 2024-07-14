@@ -27,6 +27,7 @@ _styles: >
   }
 ---
 
+
 ## Motivation
 {% include figure.liquid loading="eager" path="/assets/img/weak_myops.png" class="img-fluid" zoomable=true caption="Figure 1. Fully supervised and weakly supervised myocardial pathology segmentation." %}
 

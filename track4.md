@@ -11,6 +11,7 @@ toc:
   - name: Metrics
   - name: Rules
   - name: Registration
+  - name: Submission Guidance
   - name: Timeline
   - name: Citations
   - name: Contact
@@ -144,9 +145,9 @@ Each CMR sequence and gold standard label of patients will be provided in the NI
 
 The performance of scar and edema segmentation results will be evaluated by：
 - **Dice Similarity Coefficient (DSC)**
-- **Precision (Pre)**
+- **Precision (PRE)**
 - **Sensitivity (SEN)**
-- **Hausdorff Distance (HD)**
+- **Specificity (SPE)**
 
 Note that the track will provide an open platform for research groups to [validate](http://zmic.org.cn/care_2024/eval/scoreboard?track=MyoPS%2B%2B) and [test](http://zmic.org.cn/care_2024/test_submission) their methods. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/docker_tutorial) to our platform for testing.
 
@@ -175,11 +176,16 @@ Please [**sign up**](http://zmic.org.cn/care_2024/eval/register?track=MyoPS%2B%2
 ### Model Submission
 After registration, we will assign participants an account to login into our [MyoPS++ evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=MyoPS%2B%2B). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
+
+ 
+
 ### Paper submission
+
 You should submit using the [Conference Management Toolkit (CMT) website](https://cmt3.research.microsoft.com/CARE2024/). 
 - Upon accessing the submission platform, please select the  MyoPS++ track after clicking the Create new submission button.
 - Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at [Lecture Notes in Computer Science](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
 - We recommend that manuscripts be structured to include up to 8 pages of content (text, figures, and tables), plus up to 2 pages for references. To provide flexibility, the submission may be extended up to a maximum of 12 pages, including both content and references.
+
 
 ## Timeline
 The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.
@@ -203,7 +209,7 @@ The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in P
     </tr>
     <tr>
     <td class="text-left"><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"> July 15 to August 15, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Notification</strong></td>

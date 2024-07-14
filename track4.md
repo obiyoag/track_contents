@@ -11,6 +11,7 @@ toc:
   - name: Metrics
   - name: Rules
   - name: Registration
+  - name: Submission Guidance
   - name: Timeline
   - name: Citations
   - name: Contact
@@ -144,9 +145,9 @@ Each CMR sequence and gold standard label of patients will be provided in the NI
 
 The performance of scar and edema segmentation results will be evaluated by：
 - **Dice Similarity Coefficient (DSC)**
-- **Precision (Pre)**
+- **Precision (PRE)**
 - **Sensitivity (SEN)**
-- **Hausdorff Distance (HD)**
+- **Specificity (SPE)**
 
 Note that the track will provide an open platform for research groups to [validate](http://zmic.org.cn/care_2024/eval/scoreboard?track=MyoPS%2B%2B) and [test](http://zmic.org.cn/care_2024/test_submission) their methods. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/docker_tutorial) to our platform for testing.
 
@@ -175,8 +176,14 @@ Please [**sign up**](http://zmic.org.cn/care_2024/eval/register?track=MyoPS%2B%2
 ### Model Submission
 After registration, we will assign participants an account to login into our [MyoPS++ evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=MyoPS%2B%2B). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
+
+ 
+
 ### Paper submission
-TBD
+Participants are also required to submit a paper via [CMT](https://cmt3.research.microsoft.com/CARE2024/Submission/Index) to describe their methods. For those competing for the **Best Paper Award**, **Nomination Award**, **Travel Award** and **Best Performance Award**, papers will be assessed based on several key criteria: **Test Results**, **Generalizability of Methodologies**, and **Quality of the Manuscript**.
+
+
+
 
 ## Timeline
 The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.
@@ -188,19 +195,19 @@ The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in P
     </tr>
     <tr>
     <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 7, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"> <del>June 10, 2024 to July 7, 2024</del> July 1 to July 30, 2024 (DDL)  </th>
     </tr>
     <tr>
     <td class="text-left"><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><del>July 7, 2024 to August 7, 2024 (DDL)</del> TBC </th>
     </tr>
     <tr>
     <td class="text-left"><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"> <del>July 15, 2024</del> July 15 to August 15, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"> July 15 to August 15, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Notification</strong></td>

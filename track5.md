@@ -8,6 +8,7 @@ toc:
   - name: Motivation
   - name: Task
   - name: Data
+  - name: Guidance for Training Strategies
   - name: Metrics & Ranking
   - name: Rules
   - name: Registration
@@ -71,13 +72,11 @@ Further details are provided in Fig. 2. Note that both the images and labels of 
 
 ### Data Format
 
-All data will be provided in the nifty format as [Case Identifier]_[image/label].nii.gz. 
+All data will be provided in the NIfTI format as [Case Identifier]_[image/label].nii.gz. 
 
 ### Data Acquisition
 
 The cardiac CT/CTA data were acquired using standard coronary CT angiography protocols. At Center A, imaging was conducted with 64-slice Philips CT scanners. Center B used a dual-source SIEMENS CT scanner or a high-end, single-source GE CT scanner. The cardiac MRI data were obtained using various steady-state free precession (SSFP) sequences, adaptable for both free-breathing and breath-held imaging. Centers C and D employed either a 1.5T Philips scanner or a Siemens Avanto 1.5T scanner for scanning. Center E utilized Philips Achieva 1.5T scanners. Center F conducted its imaging with a Siemens Avanto 1.5T scanner. This diversity in the data acquisition process across centers underscores the extensive scope and scale of the dataset.
-
-Note that the resolution of images in validation/test dataset were adjusted to 1.0 × 1.0 × 1.0 mm for convenience.
 
 ### Guidance for Training Strategies
 
@@ -135,40 +134,40 @@ Topics may cover (not exclusively):
 - Model generalization
 
 ## Timeline
-The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
+The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.
 
 <table class="table table-sm table-hover border-bottom">
     <tr>
-    <td><strong>Training Data Release</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">May 7, 2024, 23:59:59</th>
+    <td class="text-left"><strong>Training Data Release</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">May 10, 2024</th>
     </tr>
     <tr>
-    <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 7 to July 7, 2024, 23:59:59 (DDL)</th>
+    <td class="text-left"><strong>Validation Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 7, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7 to August 7, 2024, 23:59:59 (DDL)</th>
+    <td class="text-left"><strong>Test Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024, 23:59:59 (DDL)</th>
+    <td class="text-left"><strong>Abstract Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 15, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024, 23:59:59 (DDL)</th>
+    <td class="text-left"><strong>Paper Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">August 15, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td><strong>Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 15, 2024, 23:59:59</th>
+    <td class="text-left"><strong>Notification</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">September 15, 2024</th>
     </tr>
     <tr>
-    <td><strong>Camera Ready</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 1, 2024, 23:59:59 (DDL)</th>
+    <td class="text-left"><strong>Camera Ready</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">September 25, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td><strong>Workshop (Half-Day)</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">TBD</th>
+    <td class="text-left"><strong>Workshop (Half-Day)</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">October 10, 2024</th>
     </tr>
 </table>
 

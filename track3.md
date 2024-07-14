@@ -67,30 +67,30 @@ For LiFS task, all 250 training samples are provided with the ground truth of th
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th class="text-center" scope="col">Vendor</th>
-      <th class="text-center" scope="col">Center</th>
-      <th class="text-center" scope="col">Num. studies</th>
-      <th class="text-center" scope="col">Num. Annotations</th>
+      <th scope="col">Vendor</th>
+      <th scope="col">Center</th>
+      <th scope="col">Num. studies</th>
+      <th scope="col">Num. Annotations</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="text-center">A</td>
-      <td class="text-center">A</td>
-      <td class="text-center">100</td>
-      <td class="text-center">10</td>
+      <td>A</td>
+      <td>A</td>
+      <td>100</td>
+      <td>10</td>
     </tr>
     <tr>
-      <td class="text-center">B</td>
-      <td class="text-center">B1</td>
-      <td class="text-center">100</td>
-      <td class="text-center">10</td>
+      <td>B</td>
+      <td>B1</td>
+      <td>100</td>
+      <td>10</td>
     </tr>
     <tr>
-      <td class="text-center">B</td>
-      <td class="text-center">B2</td>
-      <td class="text-center">50</td>
-      <td class="text-center">10</td>
+      <td>B</td>
+      <td>B2</td>
+      <td>50</td>
+      <td>10</td>
     </tr>
   </tbody>
 </table>
@@ -103,30 +103,30 @@ For LiFS task, all 250 training samples are provided with the ground truth of th
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:85%;align:center;">
   <thead>
     <tr>
-      <th class="text-center" scope="col">Vendor</th>
-      <th class="text-center" scope="col">Center</th>
-      <th class="text-center" scope="col">Num. studies</th>
-      <th class="text-center" scope="col">Num. Annotations</th>
+      <th scope="col">Vendor</th>
+      <th scope="col">Center</th>
+      <th scope="col">Num. studies</th>
+      <th scope="col">Num. Annotations</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="text-center">A</td>
-      <td class="text-center">A</td>
-      <td class="text-center">10</td>
-      <td class="text-center">10</td>
+      <td>A</td>
+      <td>A</td>
+      <td>10</td>
+      <td>10</td>
     </tr>
     <tr>
-      <td class="text-center">B</td>
-      <td class="text-center">B1</td>
-      <td class="text-center">10</td>
-      <td class="text-center">10</td>
+      <td>B</td>
+      <td>B1</td>
+      <td>10</td>
+      <td>10</td>
     </tr>
     <tr>
-      <td class="text-center">B</td>
-      <td class="text-center">B2</td>
-      <td class="text-center">10</td>
-      <td class="text-center">10</td>
+      <td>B</td>
+      <td>B2</td>
+      <td>10</td>
+      <td>10</td>
     </tr>
   </tbody>
 </table>
@@ -141,31 +141,31 @@ The 160 test cases corresponded to 120 new cases from the vendors provided in th
 <table class="table table-sm table-hover border-bottom" style="table-layout:fixed;width:50%;align:center;">
   <thead>
     <tr>
-      <th class="text-center" scope="col">Vendor</th>
-      <th class="text-center" scope="col">Center</th>
-      <th class="text-center" scope="col">Num. studies</th>
+      <th scope="col">Vendor</th>
+      <th scope="col">Center</th>
+      <th scope="col">Num. studies</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="text-center">A</td>
-      <td class="text-center">A</td>
-      <td class="text-center">40</td>
+      <td>A</td>
+      <td>A</td>
+      <td>40</td>
     </tr>
     <tr>
-      <td class="text-center">B</td>
-      <td class="text-center">B1</td>
-      <td class="text-center">40</td>
+      <td>B</td>
+      <td>B1</td>
+      <td>40</td>
     </tr>
     <tr>
-      <td class="text-center">B</td>
-      <td class="text-center">B2</td>
-      <td class="text-center">40</td>
+      <td>B</td>
+      <td>B2</td>
+      <td>40</td>
     </tr>
     <tr>
-      <td class="text-center">C (new)</td>
-      <td class="text-center">C</td>
-      <td class="text-center">40</td>
+      <td>C (new)</td>
+      <td>C</td>
+      <td>40</td>
     </tr>
   </tbody>
 </table>
@@ -203,41 +203,40 @@ After registration, we will assign participants an account to login into our [Li
 TBD
 
 ### Timeline
-
-The schedule for this track is as follows. All deadlines (DDL) are in Pacific Standard Time.
+The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.
 
 <table class="table table-sm table-hover border-bottom">
     <tr>
-    <td><strong>Training Data Release</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">May 7, 2024, 23:59:59</th>
+    <td class="text-left"><strong>Training Data Release</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">May 10, 2024</th>
     </tr>
     <tr>
-    <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">June 7 to July 7, 2024, 23:59:59 (DDL)</th>
+    <td class="text-left"><strong>Validation Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">June 10, 2024 to July 7, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 7 to August 7, 2024, 23:59:59 (DDL)</th>
+    <td class="text-left"><strong>Test Phase</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 7, 2024 to August 7, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">July 15, 2024, 23:59:59 (DDL)</th>
+    <td class="text-left"><strong>Abstract Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">July 15, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024, 23:59:59 (DDL)</th>
+    <td class="text-left"><strong>Paper Submission</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">August 15, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td><strong>Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 15, 2024, 23:59:59</th>
+    <td class="text-left"><strong>Notification</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">September 15, 2024</th>
     </tr>
     <tr>
-    <td><strong>Camera Ready</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 1, 2024, 23:59:59 (DDL)</th>
+    <td class="text-left"><strong>Camera Ready</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">September 25, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td><strong>Workshop (Half-Day)</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 7, 2024</th>
+    <td class="text-left"><strong>Workshop (Half-Day)</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">October 10, 2024</th>
     </tr>
 </table>
 
@@ -262,7 +261,7 @@ The schedule for this track is as follows. All deadlines (DDL) are in Pacific St
 
 ## Contact
 
-If you have any questions regarding the MyoPS++ track, please feel free to contact: 
+If you have any questions regarding the LiQA track, please feel free to contact: 
 
 * Jiyao Liu: [jiyaoliu.fudan@gmail.com](mailto:jiyaoliu.fudan@gmail.com)
 * Yuanye Liu: [yuanyeliu@fudan.edu.cn](mailto:yuanyeliu@fudan.edu.cn)

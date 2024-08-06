@@ -138,12 +138,8 @@ To access the dataset, please register in the [LAScarQS++ registration platform]
 
 ### Model Submission
 After registration, we will assign the participant an account to login into our [LAScarQS++ evaluation platform](http://zmic.org.cn/care_2024/eval/login?track=LAScarQS%2B%2B). Participants can directly upload your predictions on the validation data (in nifty format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
-
-### Paper submission
-You should submit using the [Conference Management Toolkit (CMT) website](https://cmt3.research.microsoft.com/CARE2024/). 
-- Upon accessing the submission platform, please select the  LAScarQS++ track after clicking the Create new submission button.
-- Papers must be submitted electronically in searchable pdf format following the guidelines for authors and LaTeX and MS Word templates available at [Lecture Notes in Computer Science](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
-- We recommend that manuscripts be structured to include up to 8 pages of content (text, figures, and tables), plus up to 2 pages for references. To provide flexibility, the submission may be extended up to a maximum of 12 pages, including both content and references.
+### Paper Submission
+Please refer to our [paper submission guidance](/care_2024/paper_submission).
 
 ## Timeline
 The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.

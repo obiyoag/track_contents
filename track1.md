@@ -494,6 +494,51 @@ After registration, we will assign participants an account to login into our [TF
 ### Paper Submission
 Please refer to our [paper submission guidance](/care_2024/paper_submission).
 
+### Docker Submission (New!!!)
+Since the aim of TM4MedIA is one model for all tasks, we make the name/directory/paths of a specific test task anonymous to avoid anyone using the information to select a specfiic model (e.g., nnUnet) for each test task. Therefore, we copy all test images of a specific task into the directory ":/input/images/" and save the corresponding prompts to the path ":/input/prompts.json". For convenience, the json structure keeps the same as the validation phase. For example, the structure of ":/input" is
+```bash
+:/input
+    |-- prompts.json
+    |-- images
+        |-- Case ID1.nii.gz
+        |-- Case ID2.nii.gz
+        ...
+        |__ Case IDN.nii.gz
+```
+The structure of ":/input/prompts.json" is
+```json
+{
+    "Case ID1":
+    {
+        "Slice Id1": null,               #set to null if no/tiny foreground 
+        ...
+        "Slice IDk": 
+        {
+            "Label ID1": 
+            [
+                [x, y, x + h, y + w],     #bounding box prompt
+                [[x1, y1],[x2, y2], ...]  #point prompt, the number of points ranges in [1,5]
+            ]
+            ...
+        }
+        ...
+    }
+    ...
+}
+```
+**Orientations**: when apply prompts to images, the orientation of loading images should be set to `axcodes="PLS"`. 
+
+Your docker should read the input test images from the directory ":/input/images", load the input prompts from the path ":/input/prompts.json", and output the corresponding predictions into the directory ":/output". The recommended structure of the directory ":/output" is
+```bash
+:/output
+    |-- Case ID1_pred.nii.gz
+    |-- Case ID2_pred.nii.gz
+    ...
+    |__ Case IDN_pred.nii.gz
+```
+
+The output segmentation should keep the same size as its original image/case. For the slices with null prompt, just label all areas as `Label ID=0`. For the slices with prompts, the label of segmentation should keep the same as the given label of prompts (`"Label ID"`). **Note that inconsistent labels would lead to incorrect evaluation.**
+
 ## Timeline
 The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in Pacific Standard Time.
 
@@ -504,19 +549,19 @@ The schedule for this track is as follows. All deadlines(DDLs) are on 23:59 in P
     </tr>
     <tr>
     <td class="text-left"><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right"><s>June 10, 2024 to July 7, 2024 (DDL)</s> July 1, 2024 to July 30, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>June 10, 2024 to July 7, 2024 (DDL)</s> July 1, 2024 to September 25, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right"><s>July 7, 2024 to August 7, 2024 (DDL)</s> TBC</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>July 7, 2024 to August 7, 2024 (DDL)</s> August 15, 2024 to September 15, 2024</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Abstract Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right"><s>July 15, 2024 (DDL)</s> July 25, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>July 15, 2024 (DDL) July 25, 2024 (DDL)</s> August 22, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Paper Submission</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 15, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right"><s>August 15, 2024 (DDL)</s>September 1, 2024 (DDL)</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Notification</strong></td>

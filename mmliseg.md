@@ -126,11 +126,11 @@ The schedule for this track is as follows. All deadlines are on 12:00 pm in Paci
     </tr>
     <tr>
     <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 1, 2024 to September 1, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">August 1, 2024 to September 15, 2024 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 1, 2024 to October 1, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">September 16, 2024 to October 1, 2024 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Notification</strong></td>
@@ -141,6 +141,7 @@ The schedule for this track is as follows. All deadlines are on 12:00 pm in Paci
     <th scope="row" style="width: 60%" class="text-right">November 8, 2024</th>
     </tr>
 </table>
+
 
 
 

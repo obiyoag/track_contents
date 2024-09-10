@@ -117,7 +117,7 @@ To access the dataset, please [sign up](http://zmic.org.cn/care_2024/eval/regist
 After registration, we will assign the participant an account to login into our [evaluation platform](http://zmic.org.cn/). Participants can directly upload your predictions on the validation data (in nii.gz format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/care_2024/test_submission) for testing.
 
 ## Timeline
-The schedule for this track is as follows. All deadlines are on 12:00 pm in Pacific Standard Time.
+The schedule for this track is as follows. We have extended the DDL of validation phase to September 16th. All deadlines are on 12:00 pm in Pacific Standard Time.
 
 <table class="table table-sm table-hover border-bottom">
     <tr>
@@ -126,11 +126,11 @@ The schedule for this track is as follows. All deadlines are on 12:00 pm in Paci
     </tr>
     <tr>
     <td><strong>Validation Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">August 1, 2024 to September 1, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">August 1, 2024 to September 15, 2024 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Test Phase</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">September 1, 2024 to October 1, 2024 (DDL)</th>
+    <th scope="row" style="width: 60%" class="text-right">September 16, 2024 to October 1, 2024 (DDL)</th>
     </tr>
     <tr>
     <td><strong>Notification</strong></td>
@@ -141,6 +141,7 @@ The schedule for this track is as follows. All deadlines are on 12:00 pm in Paci
     <th scope="row" style="width: 60%" class="text-right">November 8, 2024</th>
     </tr>
 </table>
+
 
 
 

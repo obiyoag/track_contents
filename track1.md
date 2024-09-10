@@ -505,6 +505,8 @@ Since the aim of TM4MedIA is one model for all tasks, we make the name/directory
         ...
         |__ Case IDN.nii.gz
 ```
+**Note that** for MyoPS++, one case has three sequences, i.e., "Case ID*_C0.nii.gz", "Case ID*_LGE.nii.gz", and "Case ID*_T2.nii.gz".
+
 The structure of ":/input/prompts.json" is
 ```json
 {

@@ -10,6 +10,7 @@ toc:
   - name: Metrics
   - name: Rules
   - name: Registration
+  - name: Code of Conduct
   - name: Timeline
   - name: Organizer
   - name: Contact
@@ -154,6 +155,11 @@ Please [**sign up**](http://zmic.org.cn/care_2024/eval/register?track=Weakly_Sup
 After registration, we will assign participants an account to log into our [evaluation platform](http://zmic.org.cn/). Participants can directly upload their predictions on the validation data (in NIfTI format) via the website. Note that evaluation of validation data will be allowed up to 10 times for each task per team. For a fair comparison, the test dataset will remain unseen. Participants need to submit their [docker models](http://zmic.org.cn/) for testing.
 
 
+## Code of Conduct
+WeakMyoPS will adopt the MICCAI [Code of Conduct](https://miccai.org/index.php/about-miccai/code-of-conduct-2/) and MICCAI [Scientific Code of Ethics](https://miccai.org/index.php/about-miccai/scientific-code-of-ethics/).
+
+Complaints can be submitted directly to [Dr. Wangbin Ding](mailto:dingwangbin@126.com) .
+
 
 ## Timeline
 The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in Pacific Standard Time.
@@ -181,10 +187,18 @@ The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in P
     </tr>
 </table>
 
+
 ## Organizer
 - [Xiahai Zhuang](https://zmiclab.github.io/zxh/), School of Data Science, Fudan University
+- Yingliang Ma, School of Computing Sciences, University of East Anglia
+- Xicheng Sheng, School of Data Science, Fudan University
+- Lei Li, School of Electronics & Computer Science, University of Southampton
 - Wangbin Ding, School of Imaging, Fujian Medical University
-- [Liqin Huang](http://itlab.fzu.edu.cn/gzl/ZhuanJi/TeacherInfo2.aspx?No=T96022), College of Physics and Information Engineering, Fuzhou University
+- Liqin Huang, College of Physics and Information Engineering, Fuzhou University
+- Shan Yang (M.D.), Zhongshan Hospital
+- Lei Yin (M.D.), Imaging Department, Fujian Provincial Hospital
+- Zhi Dou (M.D.), Cardiac Surgery Department, Fujian Provincial Hospital
+
 
 ## Contact
 

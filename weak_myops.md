@@ -178,8 +178,16 @@ The schedule for this track is as follows. All deadlines(DDLs) are at 23:59 in P
     <th scope="row" style="width: 60%" class="text-right">September 1, 2024 to October 1, 2024 (DDL)</th>
     </tr>
     <tr>
-    <td class="text-left"><strong>Notification</strong></td>
-    <th scope="row" style="width: 60%" class="text-right">October 5, 2024</th>
+    <td class="text-left"><strong>Call for workshop participation</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">October 20, 2024</th>
+    </tr>
+<tr>
+    <td class="text-left"><strong>Final call for workshop participation</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">November 1, 2024</th>
+    </tr>
+    <tr>
+    <td class="text-left"><strong>Workshop program release</strong></td>
+    <th scope="row" style="width: 60%" class="text-right">November 5, 2024</th>
     </tr>
     <tr>
     <td class="text-left"><strong>Workshop (Half-Day)</strong></td>
